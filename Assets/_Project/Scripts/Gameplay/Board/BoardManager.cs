@@ -15,6 +15,9 @@ namespace BlockPuzzle.Gameplay.Board
 
         private BoardCell[,] cells;
 
+        [SerializeField]
+        private BoardLineDetector lineDetector;
+
         private void Start()
         {
             GenerateBoard();
@@ -97,6 +100,74 @@ namespace BlockPuzzle.Gameplay.Board
                 boardCell.IsOccupied = true;
 
                 boardCell.View.SetOccupiedVisual(true);
+            }
+            LineDetectionResult result =
+                lineDetector.DetectCompletedLines();
+
+            if (result.HasAnyLines)
+            {
+                ClearLines(result);
+
+                Debug.Log(
+                    $"Cleared Rows:{result.CompletedRows.Count} " +
+                    $"Columns:{result.CompletedColumns.Count}");
+            }
+        }
+
+        private void ClearLines(
+            LineDetectionResult result)
+        {
+            ClearRows(result);
+
+            ClearColumns(result);
+        }
+
+        private void ClearRows(
+            LineDetectionResult result)
+        {
+            foreach (int row in result.CompletedRows)
+            {
+                for (int x = 0;
+                    x < AppConstants.BoardWidth;
+                    x++)
+                {
+                    BoardCell cell =
+                        GetCell(x, row);
+
+                    if (cell == null)
+                    {
+                        continue;
+                    }
+
+                    cell.IsOccupied = false;
+
+                    cell.View.SetOccupiedVisual(false);
+                }
+            }
+        }
+
+        private void ClearColumns(
+            LineDetectionResult result)
+        {
+            foreach (int column
+                in result.CompletedColumns)
+            {
+                for (int y = 0;
+                    y < AppConstants.BoardHeight;
+                    y++)
+                {
+                    BoardCell cell =
+                        GetCell(column, y);
+
+                    if (cell == null)
+                    {
+                        continue;
+                    }
+
+                    cell.IsOccupied = false;
+
+                    cell.View.SetOccupiedVisual(false);
+                }
             }
         }
     }

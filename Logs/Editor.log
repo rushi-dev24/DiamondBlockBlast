@@ -19677,3 +19677,1400 @@ Total: 15.272954 ms (FindLiveObjects: 0.577820 ms CreateObjectMapping: 1.389022 
 
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 20ee68c7a8cf7b0498411463c41c6362 - Path: Assets/_Project/Documentation/Changelog.md' with importer (TextScriptImporter)
+Imported 'GUID: 20ee68c7a8cf7b0498411463c41c6362' -> (Import Result ID: 'fa328a913e8e83517296788aec3ffb0a') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=b3637c50581ab8916525e673f778b011 DependenciesID=00d0a4cc70742aaa1b986cf52b5fce16 StaticDependenciesID=84d43d215a89c1c7eed0ffe27586b2bc 
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=658d95480a52209c48093edbb632d04d): Total: 0.335 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=322 ms
+		Asset DB Callback time: managed=2 ms, native=9 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2061, non-scripts=3403
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.681ms
+	ApplyChangesToAssetFolders: 0.482ms
+	Scan: 253.154ms
+	Collect global state as custom dependencies: 0.146ms
+	OnSourceAssetsModified: 0.559ms
+	ProcessAssetsWithTransientArtifactChanges: 0.171ms
+	CategorizeAssets: 15.985ms
+	ImportOutOfDateAssets: 45.466ms (9.692ms without children)
+		ImportManagerImport: 4.152ms (0.625ms without children)
+		ReloadNativeAssets: 0.068ms
+		UnloadImportedAssets: 0.095ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.504ms
+		InitializingProgressBar: 0.706ms
+		ImportSchedulerStart: 30.247ms
+	PostProcessAllAssets: 7.830ms
+		XRBuildSystem.XRAssetImported 5.919ms
+		MonoPostProcessAllAssets: 1.808ms
+			AssetChangedListener.OnPostprocessAllAssets 0.623ms
+			SyncVS.PostprocessSyncProject 0.450ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.124ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 0.075ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.069ms
+	PostAssetChangesProfiler: 2.692ms
+	GatherAllCurrentPrimaryImportResultRevisions: 1.013ms
+	UnloadStreamsBegin: 0.068ms
+	PersistCurrentRevisions: 0.334ms
+	Untracked: 5.835ms
+
+Project ID request failed, Reason: The requested URL returned error: 401 (401).
+Unknown Unity Connect error (400). Please contact support at support@unity.com while processing request "https://services.unity.com/api/unity/legacy/v1/projects/34b46520-af6f-4387-b883-e26bcf71ef8e", HTTP error code 401
+.[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "GwCvlGjt"... (expires: 2026-07-11T10:32:01Z)
+UPID Received '34b46520-af6f-4387-b883-e26bcf71ef8e'.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.0977ms
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 0.5472ms
+ExitCode: 4 Duration: 0s326ms
+[ 992/1330  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1300b0aE-inputdata.json
+*** Tundra requires additional run (0.27 seconds), 2 items updated, 1325 evaluated
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/netcorerun/netcorerun "/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe" "Library/Bee/1300b0aE.dag.json" "Library/Bee/1300b0aE-inputdata.json" "Library/Bee/buildprogram0.traceevents"
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+ExitCode: 0 Duration: 1s551ms
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --dagfilejson="Library/Bee/1300b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 0.4357ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 23.1200ms
+ExitCode: 0 Duration: 0s597ms
+Finished compiling graph: 1333 nodes, 29646 flattened edges (24584 ToBuild, 236 ToUse), maximum node priority 1526
+[ 648/1330  0s] WriteText Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.rsp
+[ 983/1330  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1326/1330  0s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(52,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1327/1330  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1328/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1329/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (0.54 seconds), 6 items updated, 1330 evaluated
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(52,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+meplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Total cache size 267261516
+Total cache size after purge 267261516, took 00:00:00.1720462
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.13 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.312 seconds
+Domain Reload Profiling: 4052ms
+	BeginReloadAssembly (1372ms)
+		DisableScriptedObjects (46ms)
+		CreateAndSetChildDomain (548ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (79ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (158ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2314ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (613ms)
+			ProcessInitializeOnLoadAttributes (296ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (388ms)
+Refreshing native plugins compatible for Editor in 3.22 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=eff2e0886e6743084b5b3cc8c57048b6): Total: 7.870 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3234 ms
+		Asset DB Callback time: managed=196 ms, native=7 ms
+		Scripting: domain reloads=1, domain reload time=1769 ms, compile time=2662 ms, other=0 ms
+		Project Asset Count: scripts=2061, non-scripts=3403
+		Asset File Changes: new=2, changed=3, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.635ms
+	ApplyChangesToAssetFolders: 0.792ms
+	Scan: 716.478ms
+	Collect global state as custom dependencies: 3.384ms
+	OnSourceAssetsModified: 0.110ms
+	ProcessAssetsWithTransientArtifactChanges: 6.338ms
+	CategorizeAssets: 54.410ms
+	CompileScripts: 2661.882ms
+	ImportOutOfDateAssets: 2372.244ms (2337.592ms without children)
+		CollectScriptTypesHashes: 2.076ms
+		ReloadNativeAssets: 2.252ms
+		UnloadImportedAssets: 0.343ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.113ms
+		ImportSchedulerStart: 30.868ms
+	PostProcessAllAssets: 196.827ms
+		XRBuildSystem.XRAssetImported 2.506ms
+		MonoPostProcessAllAssets: 193.908ms
+			SyncVS.PostprocessSyncProject 147.746ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 8.629ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.891ms
+			AssetChangedListener.OnPostprocessAllAssets 4.545ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.413ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.779ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.673ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.555ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.203ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.956ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.708ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.547ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.505ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.503ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.482ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.440ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.313ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.311ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.278ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.258ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.243ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.237ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.234ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.223ms
+			PostProcessor.OnPostprocessAllAssets 0.221ms
+			AssetEvents.OnPostprocessAllAssets 0.169ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.151ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.139ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.125ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.124ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.123ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.122ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.119ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.112ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.102ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.093ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.092ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.057ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.052ms
+	PostAssetChangesProfiler: 6.962ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.683ms
+	PersistCurrentRevisions: 0.246ms
+	GenerateScriptTypeHashes: 3.502ms
+	GenerateScriptTypeSerializationHashes: 5.943ms
+	Untracked: 1846.580ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=d558eff6c47cb3703bb60eba432d2129): Total: 0.152 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=fc3a46e9b6f2be06c99e1dca6ed15ab5): Total: 0.284 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Asset Pipeline Refresh (id=e1086048e31b2962aaa7ea2ac8730d59): Total: 0.116 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6deea4ba9bbdcf6b2b07121507c85ca3): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=5bc9b933f9361c30496697b9eb48d709): Total: 0.137 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e52641248002839f3a8689efa8d1004a): Total: 0.106 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=85e7f3d90bfb3fed49f54f5a687241f3): Total: 0.151 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=981dbc02317d9f9a6823d185d42d1868): Total: 0.161 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=ce70b5e9cd9d4c1fa83c5dbf9069b64a): Total: 0.153 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: 'b0272f6ff04085485c4bb8a46223819c') in 0.004 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=7a886f63343a426330258d8cf070e2f5 StaticDependenciesID=f707c84e16c0f3bbcea1ff2786ceae4a 
+Importing 'GUID: aacb3e61a35fc279cb314d6f1b8166a1 - Path: Assets/_Project/ScriptableObjects/Blocks/MiniLRight.asset' with importer (NativeFormatImporter)
+Imported 'GUID: aacb3e61a35fc279cb314d6f1b8166a1' -> (Import Result ID: '8ef3ccea338991181c5b9c1f2d74871a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=3dc2ae1328ac45d49f3bd1067c32be62 DependenciesID=e27e07ebafa06da7c1dd1fd3adea0c3b StaticDependenciesID=b49fe465e6322e8fb628e68a8c10ac77 
+Refreshing native plugins compatible for Editor in 2.35 ms, found 1 plugins.
+Asset Pipeline Refresh (id=f799f933babee57adac524ffdfa6aea9): Total: 0.078 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '5f9bd93bd36fba1872e9cf62c0f6d35a') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=4fe1f1a74c9015e3c128b15b946a1d3e StaticDependenciesID=9aec98036e48ce3e2cd1458548e4290a 
+Refreshing native plugins compatible for Editor in 2.19 ms, found 1 plugins.
+Asset Pipeline Refresh (id=404648f10a15faea0b1eba3dac0380bd): Total: 0.069 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+SpriteAtlasPacking completed in 0.004477 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.226 ms
+	Integration:            329.855 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.002 ms
+	Total Operation Time:   332.085 ms
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.679 ms
+	Integration:            239.650 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   241.334 ms
+Unloading 241 unused Assets / (501.1 KB). Loaded Objects now: 11145.
+Memory consumption went from 388.2 MB to 387.7 MB.
+Total: 19.194109 ms (FindLiveObjects: 0.462111 ms CreateObjectMapping: 0.998847 ms MarkObjects: 16.598608 ms  DeleteObjects: 1.133758 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '3c5de616af491d0494bf63520a29d9ad') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=0d212c1e07e4ec65437b059842d4b71a StaticDependenciesID=442afc2b07b89d1e2929fe322993405d 
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
+Asset Pipeline Refresh (id=b14a64e51f33e373c8b05e116873bd4a): Total: 0.072 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+SpriteAtlasPacking completed in 0.005423 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            0.796 ms
+	Integration:            257.254 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.108 ms
+	Total Operation Time:   258.161 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at BlockPuzzle.Gameplay.Board.BoardManager.PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData blockData, System.Int32 originX, System.Int32 originY) [0x00056] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:104 
+  at BlockPuzzle.Gameplay.Blocks.BlockView.OnEndDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00046] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:276)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process() (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 104)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BlockPuzzle.Gameplay.Board.BoardManager.PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData blockData, System.Int32 originX, System.Int32 originY) [0x00056] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:104 
+  at BlockPuzzle.Gameplay.Blocks.BlockView.OnEndDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00046] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:276)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process() (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 104)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BlockPuzzle.Gameplay.Board.BoardManager.PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData blockData, System.Int32 originX, System.Int32 originY) [0x00056] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:104 
+  at BlockPuzzle.Gameplay.Blocks.BlockView.OnEndDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00046] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:276)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process() (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 104)
+
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.425 ms
+	Integration:            242.664 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.103 ms
+	Total Operation Time:   244.194 ms
+Unloading 223 unused Assets / (487.3 KB). Loaded Objects now: 11139.
+Memory consumption went from 386.4 MB to 386.0 MB.
+Total: 20.470778 ms (FindLiveObjects: 0.420477 ms CreateObjectMapping: 0.979252 ms MarkObjects: 18.558773 ms  DeleteObjects: 0.511165 ms)
+
+SpriteAtlasPacking completed in 0.006146 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.226 ms
+	Integration:            245.782 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.000 ms
+	Total Operation Time:   247.014 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at BlockPuzzle.Gameplay.Board.BoardManager.PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData blockData, System.Int32 originX, System.Int32 originY) [0x00056] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:104 
+  at BlockPuzzle.Gameplay.Blocks.BlockView.OnEndDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00046] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:276)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process() (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 104)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BlockPuzzle.Gameplay.Board.BoardManager.PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData blockData, System.Int32 originX, System.Int32 originY) [0x00056] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:104 
+  at BlockPuzzle.Gameplay.Blocks.BlockView.OnEndDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00046] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:276)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process() (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 104)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at BlockPuzzle.Gameplay.Board.BoardManager.PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData blockData, System.Int32 originX, System.Int32 originY) [0x00056] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:104 
+  at BlockPuzzle.Gameplay.Blocks.BlockView.OnEndDrag (UnityEngine.EventSystems.PointerEventData eventData) [0x00046] in /home/rushi/projects/DiamondBlockBlast/Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (UnityEngine.EventSystems.IEndDragHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00067] in ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:276)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process() (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update() (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 104)
+
+Asset Pipeline Refresh (id=ea4bc6124501a5aa4a7e4d93d98598a8): Total: 0.155 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.604 ms
+	Integration:            246.315 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.109 ms
+	Total Operation Time:   248.035 ms
+Unloading 2 unused Assets / (457.4 KB). Loaded Objects now: 11139.
+Memory consumption went from 377.5 MB to 377.1 MB.
+Total: 20.357907 ms (FindLiveObjects: 0.427650 ms CreateObjectMapping: 0.930096 ms MarkObjects: 18.869951 ms  DeleteObjects: 0.129058 ms)
+
+SpriteAtlasPacking completed in 0.006457 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.104 ms
+	Integration:            262.000 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.070 ms
+	Total Operation Time:   263.176 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.643 ms
+	Integration:            245.486 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.113 ms
+	Total Operation Time:   247.246 ms
+Unloading 2 unused Assets / (211.4 KB). Loaded Objects now: 11139.
+Memory consumption went from 376.4 MB to 376.2 MB.
+Total: 14.513614 ms (FindLiveObjects: 0.441940 ms CreateObjectMapping: 1.184621 ms MarkObjects: 12.803772 ms  DeleteObjects: 0.082369 ms)
+
+Asset Pipeline Refresh (id=7254e5dfff89dd98da46751ae222d569): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=dc9596ad63119cd759e9908f95c2dfc2): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '9d9d70472097947b28c091e1cfd3eb43') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=8443723e6c26b78eb62bcefd04177b92 StaticDependenciesID=4dc26055025bfe670244d8f190ac4451 
+Refreshing native plugins compatible for Editor in 3.98 ms, found 1 plugins.
+Asset Pipeline Refresh (id=193ece0eb63886f209794bf4b0516a0f): Total: 0.077 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e2bb4a6d800ad8f2ca7f30ec19386932): Total: 0.149 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=64c28f07dc380d8fb9c7fa25f95f08ce): Total: 0.160 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: 'dd7a7c34468c69e37fced5012dbd9785') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=149d924defd92c18aac5db00fcb3ca53 StaticDependenciesID=a97afff0e0586a18d3eb6b1d4a054ae9 
+Asset Pipeline Refresh (id=7f17f55101c34a49cbd1483742dbb88a): Total: 0.091 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=230de5fb3c005c3328cf0d1cf1c43597): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=4b142b0beb3c2266cb5e75241ec389ac): Total: 0.161 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=541d4ada1a7e67667a2e08b445a809fc): Total: 0.170 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Asset Pipeline Refresh (id=2d380e8def3161462aaa4613c8a87423): Total: 0.145 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2244aa5e5f06edf158a75ddc5c657cef): Total: 0.164 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Asset Pipeline Refresh (id=e28435799c9af5d9ca1c31b5e5fc7e60): Total: 0.140 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=bd499ea594cb5e9729cb9b2766a48ec6): Total: 0.164 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=3a8b1ff4a571ce4708cac13dbac3064f): Total: 0.114 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e4bba4265111611e7b227c200346e039): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c8a5fad0d6f663af084e08e77c6b0da1): Total: 0.150 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '9da3fec8cc5f7f09edaad374bee628fe') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=4dc6db7d33257d8136223e4e7995c971 StaticDependenciesID=cb500a26bc772c8f3f2bf7455feefb66 
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+Asset Pipeline Refresh (id=9d71befcc92950924a45797eaa5c513e): Total: 0.077 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=9c0ad2df03afb49bfa59c8e1fcfc6f33): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=be1c0ca941aba48e5a9d625571689f1e): Total: 0.135 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Asset Pipeline Refresh (id=7b16405adbcac3f0992fdb6bf6ee8c50): Total: 0.152 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=4781ec9d886b4cb6aab124a3bf0ed8d6): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=2a4394c287b39581e977558a0bd80af5): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=1ef8f23c09d7fe9fa8c0e03a6c8a9741): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: 'dd7a7c34468c69e37fced5012dbd9785') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=149d924defd92c18aac5db00fcb3ca53 StaticDependenciesID=a97afff0e0586a18d3eb6b1d4a054ae9 
+Asset Pipeline Refresh (id=e8097bc386eaa7fd08b61d3ed2ebd0a6): Total: 0.073 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Asset Pipeline Refresh (id=1371d5f926096a4fc954bfbcc76856b8): Total: 0.151 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=f7a8ef1c4c17df76baa47b3f8da0f894): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=0240b9a49e30b4df2b0135c442803fc8): Total: 0.133 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=1a0d8a8b0d1b3b65e8e266e6cf07a867): Total: 0.148 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=da36d8d74c018a2408060d84560d6132): Total: 0.158 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b2039fedc774f2b0c8fa048e221f92d9): Total: 0.138 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=be5ede97963ada890bd9f3b1da27788d): Total: 0.159 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=63a4343c1d4d824e8b22432207755e17): Total: 0.168 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=4612edf01a4a5761d96a9fab3a073c16): Total: 0.124 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=73412f3f07607fdc9be91d04caac5765): Total: 0.155 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=50bd0686decbaab8db810d7f4540297b): Total: 0.147 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=dfd735ca5e6b7e515ac5c7cea13c83a8): Total: 0.153 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=59962972665327953861a15320580047): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=49ca6390a93ca1bd4a679c189d9b6fe6): Total: 0.139 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c9cdb1bd7e3b26b96bf7e508730a81a5): Total: 0.124 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=4a4a70e8129c6eeca8bc4e5a23f339a5): Total: 0.152 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=10b1eaca5f6b9421b93e6c6d3eee3df9): Total: 0.265 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e79b17277b3e2fdaf82b56c4923391f8): Total: 0.152 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=291adb2a2f6f0f9028820d4cb9b837c2): Total: 0.115 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=21abdf3158d5f6fd7bffc6bf66135f49): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=fc84115366ac32cf2bf4697e3576eead): Total: 0.149 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=339cfde20d3468d0f9fa1eaacacd43d4): Total: 0.158 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a074933ea4aa23be796c68294d7fd53d): Total: 0.171 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9205d5940ce5b169b905abb482ec1875): Total: 0.167 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e3ad2411a4d78b0caa01a8124719bcc9): Total: 0.166 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=103101b49645b41a7a18a08de1c8b626): Total: 0.175 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6bddcd90ead4af485bb8428cd48df311): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c00f78951078190f5a5e82f2088b5dd8): Total: 0.131 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c4d3635914192ea088d69839bcb78c7a): Total: 0.171 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: 'b029bb94e1bb2ec1f2a37552bbd817e0') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=68b49a0f0d9623d1ed7c455f2e9d96eb StaticDependenciesID=4715ccbe439f3bd30e745c3a312b7a7c 
+Refreshing native plugins compatible for Editor in 2.12 ms, found 1 plugins.
+Asset Pipeline Refresh (id=f3c1e800ace911a9f8043e296c84a6b4): Total: 0.075 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=470391f49c1df2a53bc3a78293b91ce3): Total: 0.142 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6cb0923042052ea5faec3cbe2ed769a3): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=72b6e0561e4f6e5589c7998ace6c77c5): Total: 0.110 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+SpriteAtlasPacking completed in 0.006706 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.638 ms
+	Integration:            297.178 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.129 ms
+	Total Operation Time:   298.952 ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.631 ms
+	Integration:            256.940 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.110 ms
+	Total Operation Time:   259.688 ms
+Unloading 251 unused Assets / (0.5 MB). Loaded Objects now: 11171.
+Memory consumption went from 387.8 MB to 387.3 MB.
+Total: 16.626313 ms (FindLiveObjects: 0.427061 ms CreateObjectMapping: 1.125959 ms MarkObjects: 14.621409 ms  DeleteObjects: 0.451005 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.006561 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.423 ms
+	Integration:            263.785 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.129 ms
+	Total Operation Time:   265.340 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.501 ms
+	Integration:            256.606 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   258.133 ms
+Unloading 5 unused Assets / (290.5 KB). Loaded Objects now: 11168.
+Memory consumption went from 380.1 MB to 379.8 MB.
+Total: 15.675061 ms (FindLiveObjects: 0.417348 ms CreateObjectMapping: 1.078954 ms MarkObjects: 14.095132 ms  DeleteObjects: 0.082616 ms)
+
+Asset Pipeline Refresh (id=4e68081292b4c31a4a0828d654b7e714): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c9c3fd1fdc28b62ab963947cdf6d53bd): Total: 0.154 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=d85a7b430cd5e0435aa746200f9a47cf): Total: 0.146 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=b1ad5190d18ac7836afef0fb8e6d3d17): Total: 0.124 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=8cb8e59cde1d16d5f95e3ed8bc31cb0b): Total: 0.114 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9d5e16f9e5bd625a3b22a03d797a7966): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=6f04d7c8c1e1701d7b842c3fb697a6f8): Total: 0.131 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=16c994362dcd4d429b957418fc29a741): Total: 0.153 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity' with importer (DefaultImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '5a37b1dc4ceb480c4048bded37338d7f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=d43064bc55ea4a451ef98887144d05ff DependenciesID=c0212ba97aebff103dcf45023e094d03 StaticDependenciesID=a70eff6335cb9a6113c13c389959a77f 
+Refreshing native plugins compatible for Editor in 3.83 ms, found 1 plugins.
+Asset Pipeline Refresh (id=91d9135b6a323e037b05c66e63526c93): Total: 0.103 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+SpriteAtlasPacking completed in 0.009463 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.074 ms
+	Integration:            285.441 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.105 ms
+	Total Operation Time:   287.622 ms
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.182 ms
+	Integration:            253.557 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.042 ms
+	Total Operation Time:   254.783 ms
+Unloading 235 unused Assets / (488.9 KB). Loaded Objects now: 11166.
+Memory consumption went from 388.3 MB to 387.9 MB.
+Total: 17.366245 ms (FindLiveObjects: 0.460198 ms CreateObjectMapping: 0.989170 ms MarkObjects: 15.523947 ms  DeleteObjects: 0.391858 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=59c89341e98fe8a23b01dfa29eae572f): Total: 0.129 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=f104c429525ef475b802f9c29e03ab13): Total: 0.140 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=21dcd3b2d34f2518faa6729a8e6f59b8): Total: 0.155 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=95ac81f872bd9e7d18b343e3f75d797c): Total: 0.150 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c8b0b9bd8745566239cf70ad774d3777): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=831898bb741b53a2fba991a69f2f55e0): Total: 0.159 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+SpriteAtlasPacking completed in 0.007383 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.946 ms
+	Integration:            270.999 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.138 ms
+	Total Operation Time:   273.089 ms
+Asset Pipeline Refresh (id=936ee0fb1da94144cae2faf21a081ec6): Total: 0.125 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.233 ms
+	Integration:            267.732 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   269.979 ms
+Unloading 5 unused Assets / (307.7 KB). Loaded Objects now: 11168.
+Memory consumption went from 379.0 MB to 378.7 MB.
+Total: 17.529460 ms (FindLiveObjects: 0.644479 ms CreateObjectMapping: 1.184319 ms MarkObjects: 15.610044 ms  DeleteObjects: 0.089614 ms)
+
+Asset Pipeline Refresh (id=13fc628d85e14b319b90b4ca8a8770a1): Total: 0.155 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.1392ms
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 0.5562ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 31.6144ms
+ExitCode: 0 Duration: 2s222ms
+[ 992/1330  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1326/1330  2s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(52,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1327/1330  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1328/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1329/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+*** Tundra build success (2.17 seconds), 5 items updated, 1330 evaluated
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(52,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+meplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Total cache size 267261516
+Total cache size after purge 267261516, took 00:00:00.1070352
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.17 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 2.00 ms, found 1 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.306 seconds
+Domain Reload Profiling: 4292ms
+	BeginReloadAssembly (1616ms)
+		DisableScriptedObjects (135ms)
+		CreateAndSetChildDomain (589ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (322ms)
+		LoadAssemblies (77ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2307ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (611ms)
+			ProcessInitializeOnLoadAttributes (289ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (402ms)
+Refreshing native plugins compatible for Editor in 3.07 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=9f222a30460972517ae1b67c66d6b9a5): Total: 7.602 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3114 ms
+		Asset DB Callback time: managed=54 ms, native=8 ms
+		Scripting: domain reloads=1, domain reload time=2030 ms, compile time=2393 ms, other=0 ms
+		Project Asset Count: scripts=2061, non-scripts=3403
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.838ms
+	ApplyChangesToAssetFolders: 0.687ms
+	Scan: 638.857ms
+	Collect global state as custom dependencies: 3.307ms
+	OnSourceAssetsModified: 0.074ms
+	ProcessAssetsWithTransientArtifactChanges: 6.042ms
+	CategorizeAssets: 53.594ms
+	CompileScripts: 2393.427ms
+	ImportOutOfDateAssets: 2361.515ms (2327.312ms without children)
+		CollectScriptTypesHashes: 1.546ms
+		ReloadNativeAssets: 1.020ms
+		UnloadImportedAssets: 0.278ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.880ms
+		ImportSchedulerStart: 31.983ms
+	PostProcessAllAssets: 58.895ms
+		XRBuildSystem.XRAssetImported 3.606ms
+		MonoPostProcessAllAssets: 54.884ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 8.639ms
+			SyncVS.PostprocessSyncProject 6.743ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.324ms
+			AssetChangedListener.OnPostprocessAllAssets 5.166ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.453ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.185ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.670ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.491ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.150ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.901ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.775ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.550ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.523ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.454ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.453ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.434ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.384ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.382ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.356ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.276ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.254ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.250ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.247ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.237ms
+			PostProcessor.OnPostprocessAllAssets 0.192ms
+			AssetEvents.OnPostprocessAllAssets 0.180ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.174ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.154ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.149ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.147ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.136ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.115ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.115ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.106ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.103ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.095ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.087ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.060ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.055ms
+	PostAssetChangesProfiler: 4.580ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.785ms
+	PersistCurrentRevisions: 0.264ms
+	GenerateScriptTypeHashes: 2.580ms
+	GenerateScriptTypeSerializationHashes: 4.566ms
+	Untracked: 2077.011ms
+
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.004524 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.373 ms
+	Integration:            345.072 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.061 ms
+	Total Operation Time:   347.509 ms
+[Licensing::Client] Successfully resolved entitlement details
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Asset Pipeline Refresh (id=70c245dc922620a5d91abdd0691594bf): Total: 0.148 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.383 ms
+	Integration:            252.877 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.006 ms
+	Total Operation Time:   255.268 ms
+Unloading 86 unused Assets / (461.9 KB). Loaded Objects now: 11154.
+Memory consumption went from 379.5 MB to 379.1 MB.
+Total: 15.717913 ms (FindLiveObjects: 0.586462 ms CreateObjectMapping: 1.427511 ms MarkObjects: 13.512754 ms  DeleteObjects: 0.190161 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.007796 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.842 ms
+	Integration:            258.714 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.045 ms
+	Total Operation Time:   260.606 ms
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:1 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.514 ms
+	Integration:            244.810 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.079 ms
+	Total Operation Time:   246.410 ms
+Unloading 2 unused Assets / (294.8 KB). Loaded Objects now: 11154.
+Memory consumption went from 378.4 MB to 378.2 MB.
+Total: 14.125716 ms (FindLiveObjects: 0.411283 ms CreateObjectMapping: 1.006830 ms MarkObjects: 12.632575 ms  DeleteObjects: 0.073931 ms)
+
+SpriteAtlasPacking completed in 0.006565 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.663 ms
+	Integration:            261.971 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.140 ms
+	Total Operation Time:   263.778 ms
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Rows:0 Columns:1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:107)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 107)
+
+Asset Pipeline Refresh (id=2dc473dcdb29bfc2c9265be5696f9729): Total: 0.149 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.047 ms
+	Integration:            269.217 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.114 ms
+	Total Operation Time:   271.386 ms
+Unloading 2 unused Assets / (279.9 KB). Loaded Objects now: 11154.
+Memory consumption went from 381.8 MB to 381.5 MB.
+Total: 14.595538 ms (FindLiveObjects: 0.417232 ms CreateObjectMapping: 0.988081 ms MarkObjects: 13.120106 ms  DeleteObjects: 0.069375 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=dcd1d3ff7034d2241a9c89e91f57db81): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.0939ms
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 0.4056ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 36.8135ms
+ExitCode: 0 Duration: 2s212ms
+[ 885/1330  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1326/1330  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(52,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1327/1330  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1328/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1329/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (2.16 seconds), 5 items updated, 1330 evaluated
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(52,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+meplay/Blocks/BlockView.cs(54,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs(56,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Total cache size 267261516
+Total cache size after purge 267261516, took 00:00:00.2404120
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.69 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.534 seconds
+Domain Reload Profiling: 4123ms
+	BeginReloadAssembly (1209ms)
+		DisableScriptedObjects (162ms)
+		CreateAndSetChildDomain (651ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (333ms)
+		LoadAssemblies (80ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (2535ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (638ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (454ms)
+Refreshing native plugins compatible for Editor in 2.70 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=55de887934bec4ed7a6c061daa791647): Total: 7.526 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3430 ms
+		Asset DB Callback time: managed=55 ms, native=7 ms
+		Scripting: domain reloads=1, domain reload time=1637 ms, compile time=2395 ms, other=0 ms
+		Project Asset Count: scripts=2061, non-scripts=3403
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.519ms
+	ApplyChangesToAssetFolders: 0.490ms
+	Scan: 617.517ms
+	Collect global state as custom dependencies: 3.458ms
+	OnSourceAssetsModified: 0.659ms
+	ProcessAssetsWithTransientArtifactChanges: 6.733ms
+	CategorizeAssets: 58.096ms
+	CompileScripts: 2395.320ms
+	ImportOutOfDateAssets: 2598.195ms (2559.988ms without children)
+		CollectScriptTypesHashes: 1.077ms
+		ReloadNativeAssets: 1.058ms
+		UnloadImportedAssets: 0.327ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.040ms
+		ImportSchedulerStart: 35.745ms
+	PostProcessAllAssets: 58.327ms
+		XRBuildSystem.XRAssetImported 2.578ms
+		MonoPostProcessAllAssets: 55.172ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 8.620ms
+			SyncVS.PostprocessSyncProject 5.935ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.515ms
+			AssetChangedListener.OnPostprocessAllAssets 5.401ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.717ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.924ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.795ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.565ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.203ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.942ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.734ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.590ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.536ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.479ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.466ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.462ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.455ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.397ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.362ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.274ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.273ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.267ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.253ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.248ms
+			PostProcessor.OnPostprocessAllAssets 0.207ms
+			AssetEvents.OnPostprocessAllAssets 0.187ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.170ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.155ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.151ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.151ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.138ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.114ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.114ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.104ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.100ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.096ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.089ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.064ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.056ms
+	PostAssetChangesProfiler: 3.890ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.439ms
+	PersistCurrentRevisions: 0.257ms
+	GenerateScriptTypeHashes: 2.794ms
+	GenerateScriptTypeSerializationHashes: 5.031ms
+	Untracked: 1780.402ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=5f4685a1d3d2efa40a13b1e45836cc93): Total: 0.190 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+SpriteAtlasPacking completed in 0.004490 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.568 ms
+	Integration:            339.555 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   342.148 ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.368 ms
+	Integration:            248.454 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.070 ms
+	Total Operation Time:   250.895 ms
+Unloading 68 unused Assets / (256.4 KB). Loaded Objects now: 11158.
+Memory consumption went from 378.6 MB to 378.4 MB.
+Total: 15.433752 ms (FindLiveObjects: 0.426948 ms CreateObjectMapping: 1.011446 ms MarkObjects: 13.893917 ms  DeleteObjects: 0.100506 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=84478d0fcf7d35bdf9bfdb6ae2640d27): Total: 0.128 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+SpriteAtlasPacking completed in 0.008862 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.719 ms
+	Integration:            253.253 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.124 ms
+	Total Operation Time:   255.098 ms
+Cleared Rows:1 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:111)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 111)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.858 ms
+	Integration:            249.423 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.119 ms
+	Total Operation Time:   251.403 ms
+Unloading 2 unused Assets / (251.2 KB). Loaded Objects now: 11158.
+Memory consumption went from 379.2 MB to 378.9 MB.
+Total: 14.167403 ms (FindLiveObjects: 0.436573 ms CreateObjectMapping: 0.930576 ms MarkObjects: 12.589965 ms  DeleteObjects: 0.207859 ms)
+
+SpriteAtlasPacking completed in 0.009954 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.019 ms
+	Integration:            265.930 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.153 ms
+	Total Operation Time:   268.107 ms
+Cleared Rows:1 Columns:0
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:111)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 111)
+
+Cleared Rows:0 Columns:1
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /home/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:35)
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+BlockPuzzle.Gameplay.Board.BoardManager:PlaceBlock (BlockPuzzle.Gameplay.Blocks.BlockData,int,int) (at Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs:111)
+BlockPuzzle.Gameplay.Blocks.BlockView:OnEndDrag (UnityEngine.EventSystems.PointerEventData) (at Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs:131)
+UnityEngine.EventSystems.ExecuteEvents:Execute (UnityEngine.EventSystems.IEndDragHandler,UnityEngine.EventSystems.BaseEventData) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:85)
+UnityEngine.EventSystems.ExecuteEvents:Execute<UnityEngine.EventSystems.IEndDragHandler> (UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData,UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.IEndDragHandler>) (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/ExecuteEvents.cs:272)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel/ButtonState&,UnityEngine.EventSystems.PointerEventData) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:741)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer (UnityEngine.InputSystem.UI.PointerModel&) (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:490)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process () (at ./Library/PackageCache/com.unity.inputsystem@21a28c3a6c83/InputSystem/Plugins/UI/InputSystemUIInputModule.cs:2404)
+UnityEngine.EventSystems.EventSystem:Update () (at ./Library/PackageCache/com.unity.ugui@47f830c10234/Runtime/UGUI/EventSystem/EventSystem.cs:516)
+
+(Filename: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs Line: 111)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.202 ms
+	Integration:            255.735 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.004 ms
+	Total Operation Time:   257.949 ms
+Unloading 2 unused Assets / (448.1 KB). Loaded Objects now: 11158.
+Memory consumption went from 379.3 MB to 378.9 MB.
+Total: 14.971340 ms (FindLiveObjects: 0.487464 ms CreateObjectMapping: 1.213210 ms MarkObjects: 13.175951 ms  DeleteObjects: 0.093645 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details

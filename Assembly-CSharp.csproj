@@ -81,6 +81,7 @@
     <Compile Include="Assets/_Project/Scripts/Systems/Themes/ThemeData.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/_Project/Scripts/UI/MainMenu/MainMenuController.cs" />
+    <Compile Include="Assets/_Project/Scripts/Gameplay/Board/BoardLineDetector.cs" />
     <Compile Include="Assets/_Project/Scripts/Core/Scenes/SceneId.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/VertexShakeA.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Board/BoardHoverService.cs" />
@@ -90,6 +91,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark04.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Blocks/BlockTrayManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ChatController.cs" />
+    <Compile Include="Assets/_Project/Scripts/Gameplay/Board/LineDetectionResult.cs" />
     <Compile Include="Assets/_Project/Scripts/Services/Audio/AudioService.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_DigitValidator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_FrameRateCounter.cs" />
