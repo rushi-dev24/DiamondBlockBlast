@@ -1664,3 +1664,154 @@ Memory consumption went from 207.9 MB to 205.3 MB.
 Total: 7.507927 ms (FindLiveObjects: 0.309569 ms CreateObjectMapping: 1.040397 ms MarkObjects: 5.800756 ms  DeleteObjects: 0.356042 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9647.
+Memory consumption went from 208.0 MB to 205.4 MB.
+Total: 6.819183 ms (FindLiveObjects: 0.272871 ms CreateObjectMapping: 0.592181 ms MarkObjects: 5.641578 ms  DeleteObjects: 0.307643 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9647.
+Memory consumption went from 208.0 MB to 205.4 MB.
+Total: 6.782836 ms (FindLiveObjects: 0.278304 ms CreateObjectMapping: 0.565873 ms MarkObjects: 5.598200 ms  DeleteObjects: 0.339366 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.75 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9647.
+Memory consumption went from 208.1 MB to 205.5 MB.
+Total: 9.198002 ms (FindLiveObjects: 0.297816 ms CreateObjectMapping: 0.568168 ms MarkObjects: 7.994530 ms  DeleteObjects: 0.336176 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.03 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.44 ms, found 1 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.644 seconds
+Domain Reload Profiling: 1332ms
+	BeginReloadAssembly (160ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (232ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (644ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (134ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8750 unused Assets / (4.9 MB). Loaded Objects now: 9650.
+Memory consumption went from 212.8 MB to 207.9 MB.
+Total: 14.031726 ms (FindLiveObjects: 0.816975 ms CreateObjectMapping: 4.168676 ms MarkObjects: 7.494199 ms  DeleteObjects: 1.550794 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9650.
+Memory consumption went from 208.3 MB to 205.7 MB.
+Total: 7.260024 ms (FindLiveObjects: 0.294049 ms CreateObjectMapping: 0.564676 ms MarkObjects: 6.081487 ms  DeleteObjects: 0.318764 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T06:50:42.257818Z
+  Time since last request: 7665.04366546700021 seconds.
+  importAddress: GUID: 027d2d51b2bad0ffdaf52e86daae7db5 - Path: Assets/_Project/Prefabs/Gameplay/BlockView.prefab - Importer: PreviewImporter
+Importing 'GUID: 027d2d51b2bad0ffdaf52e86daae7db5 - Path: Assets/_Project/Prefabs/Gameplay/BlockView.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 027d2d51b2bad0ffdaf52e86daae7db5' -> (Import Result ID: 'c97e3b863d70f795f3df82e61afb4fe5') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5608b3251846f5774ce3dad1a6ee42a DependenciesID=e7baf21515c939bc2e4c4d5e9b9c3ace StaticDependenciesID=954f3007c99189311175eb0e659f6700 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9650.
+Memory consumption went from 208.4 MB to 205.8 MB.
+Total: 9.321802 ms (FindLiveObjects: 0.323335 ms CreateObjectMapping: 1.177860 ms MarkObjects: 7.487942 ms  DeleteObjects: 0.331213 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T06:53:15.58823Z
+  Time since last request: 153.29043436800001 seconds.
+  importAddress: GUID: 027d2d51b2bad0ffdaf52e86daae7db5 - Path: Assets/_Project/Prefabs/Gameplay/BlockView.prefab - Importer: PreviewImporter
+Importing 'GUID: 027d2d51b2bad0ffdaf52e86daae7db5 - Path: Assets/_Project/Prefabs/Gameplay/BlockView.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 027d2d51b2bad0ffdaf52e86daae7db5' -> (Import Result ID: '762a33b688ff3a4bc0b0e1380d3646bd') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a5608b3251846f5774ce3dad1a6ee42a DependenciesID=4600a03e476cd10f2e4f121ef859d5b1 StaticDependenciesID=6a9004446337321eeb1ee23281ceef9a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.03 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9650.
+Memory consumption went from 208.4 MB to 205.8 MB.
+Total: 7.495380 ms (FindLiveObjects: 0.301211 ms CreateObjectMapping: 1.130252 ms MarkObjects: 5.770340 ms  DeleteObjects: 0.292537 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.90 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9650.
+Memory consumption went from 208.5 MB to 205.9 MB.
+Total: 11.129356 ms (FindLiveObjects: 0.516447 ms CreateObjectMapping: 1.547231 ms MarkObjects: 8.680426 ms  DeleteObjects: 0.383375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9650.
+Memory consumption went from 208.5 MB to 205.9 MB.
+Total: 6.999560 ms (FindLiveObjects: 0.285401 ms CreateObjectMapping: 0.576210 ms MarkObjects: 5.797626 ms  DeleteObjects: 0.339056 ms)
+
+Prepare: number of updated asset objects reloaded= 0

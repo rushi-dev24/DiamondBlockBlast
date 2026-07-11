@@ -13,9 +13,19 @@ namespace BlockPuzzle.Gameplay.Blocks
         [SerializeField]
         private float cellSize = 50f;
 
+        private RectTransform rectTransform;
+
+        private void Awake()
+        {
+            rectTransform = GetComponent<RectTransform>();
+        }
+
         public void Initialize(BlockData blockData)
         {
             Clear();
+
+            int maxX = 0;
+            int maxY = 0;
 
             foreach (var cell in blockData.Cells)
             {
@@ -24,14 +34,29 @@ namespace BlockPuzzle.Gameplay.Blocks
                         visualCellPrefab,
                         cellParent);
 
-                RectTransform rect =
+                RectTransform cellRect =
                     visualCell.GetComponent<RectTransform>();
 
-                rect.anchoredPosition =
+                cellRect.anchoredPosition =
                     new Vector2(
                         cell.X * cellSize,
                         cell.Y * cellSize);
+
+                if (cell.X > maxX)
+                {
+                    maxX = cell.X;
+                }
+
+                if (cell.Y > maxY)
+                {
+                    maxY = cell.Y;
+                }
             }
+
+            rectTransform.sizeDelta =
+                new Vector2(
+                    (maxX + 1) * cellSize,
+                    (maxY + 1) * cellSize);
         }
 
         private void Clear()
