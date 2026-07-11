@@ -47,6 +47,8 @@ namespace BlockPuzzle.Gameplay.Board
                             cellPrefab,
                             cellParent);
 
+                    cellView.Initialize(x, y);
+
                     cells[x, y] =
                         new BoardCell(
                             x,

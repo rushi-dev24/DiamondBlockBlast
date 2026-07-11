@@ -8,9 +8,38 @@ namespace BlockPuzzle.Gameplay.Board
         [SerializeField]
         private Image backgroundImage;
 
+        private Color defaultColor;
+
+        public int X { get; private set; }
+
+        public int Y { get; private set; }
+
+        private void Awake()
+        {
+            defaultColor = backgroundImage.color;
+        }
+
+        public void Initialize(
+            int x,
+            int y)
+        {
+            X = x;
+            Y = y;
+        }
+
         public void SetColor(Color color)
         {
             backgroundImage.color = color;
+        }
+
+        public void Highlight()
+        {
+            backgroundImage.color = Color.yellow;
+        }
+
+        public void ClearHighlight()
+        {
+            backgroundImage.color = defaultColor;
         }
 
         public void SetOccupiedVisual(bool occupied)
@@ -18,7 +47,7 @@ namespace BlockPuzzle.Gameplay.Board
             backgroundImage.color =
                 occupied
                     ? Color.green
-                    : Color.white;
+                    : defaultColor;
         }
     }
 }
