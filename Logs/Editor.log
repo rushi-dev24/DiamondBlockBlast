@@ -1,0 +1,495 @@
+Unity Editor version:    6000.5.2f1 (eb73d3b415a1)
+Branch:                  6000.5/staging
+Build type:              Release
+Batch mode:              NO
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Kali 6.19.11-1kali1 (2026-04-09)
+Kernel version:          6.19.11+kali-amd64
+Architecture:            x86_64
+Available memory:        15639 MB
+Date:                    2026-07-11T02:33:11Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rushi" at "2026-07-11T02:33:11.883774Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-rushi"
+[Licensing::IpcConnector] LicenseClient-rushi channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-rushi-6000.5.2 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 6839)
+Selected window backend: (null) 
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rushi-6000.5.2" at "2026-07-11T02:33:12.266616Z"
+[SignatureVerifier] Application signature verification not supported on this platform.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9af5aed08b5a4a29a3495e73ed317f3e
+  Correlation Id:          a6a68deeae660e4b9bbeea8472d2c435
+  External correlation Id: 8400220045391607295
+  Machine Id:              ykK53beTLrzbDE8HI9bOiWFlC5Q=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rushi-6000.5.2" (connect: 0.38s, validation: 0.07s, handshake: 0.00s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rushi-6000.5.2-notifications" at "2026-07-11T02:33:12.340617Z"
+[Licensing::Module] Connected to LicensingClient (PId: 6839, launch time: 0.00, total connection time: 0.45s)
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated the access token aCsE4Bg5hS...
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 9072335035200-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.50s
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Unity
+-projectpath
+/home/rushi/projects/DiamondBlockBlast
+-acceptSoftwareTermsForThisRunOnly
+-useHub
+-hubIPC
+-cloudEnvironment
+production
+-licensingIpc
+LicenseClient-rushi
+-hubSessionId
+aa41645c-4812-4097-991f-1a753fe7e6c0
+-accessToken
+aCsE4Bg5hSLcjKZTvo7eA6-9rux8pLyyy5Fbs3-fGdM008f
+Successfully changed project path to: /home/rushi/projects/DiamondBlockBlast
+/home/rushi/projects/DiamondBlockBlast
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [140285418982784]  Target information:
+
+Player connection [140285418982784]  * "[IP] 192.168.0.184 [Port] 55504 [Flags] 2 [Guid] 3651405736 [EditorId] 3651405736 [Version] 1048832 [Id] LinuxEditor(16,192.168.0.184) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [140285418982784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [140285418982784] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-6814" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Android™.asset`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Artifact Garbage Collection - Removed 10 unused hashed content files
+[Licensing::Client] Successfully resolved entitlement details
+Got setting from build profile YAML, name `m_BuildTarget`, value `13`
+Got setting from build profile YAML, name `m_Subtarget`, value `0`
+Initialize engine version: 6000.5.2f1 (eb73d3b415a1)
+[Subsystems] Discovering subsystems at path /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/rushi/projects/DiamondBlockBlast/Assets
+kGfxThreadingModeSplitJobs is not supported on OpenGL Core. Reverting to kGfxThreadingModeDirect instead.
+GfxDevice: creating device client; kGfxThreadingModeDirect
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) Iris(R) Xe Graphics (RPL-U)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 26.0.4-1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f
+_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_depth_bounds_test GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_clock GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic 
+GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_shader_subgroup GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_deri
+vatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlock GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 859072864
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Initialize mono
+Mono path[0] = '/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Managed'
+Mono path[1] = '/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = '/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56814
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.002867 seconds.
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Got setting from build profile YAML, name `m_BuildSubtarget`, value `0`
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Licensing::Client] Successfully resolved entitlement details
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.810 seconds
+Domain Reload Profiling: 6277ms
+	BeginReloadAssembly (146ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (3ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (132ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (161ms)
+	FinalizeReload (5813ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (65ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (5501ms)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 68 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@15.1.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.animation@6d5a363ae647)
+    com.unity.2d.aseprite@5.0.3 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.aseprite@d13865913efa)
+    com.unity.2d.psdimporter@14.0.3 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.psdimporter@5d82044f9e43)
+    com.unity.2d.spriteshape@15.0.3 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.spriteshape@fcb7ec61a58b)
+    com.unity.2d.tilemap.extras@8.0.3 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.tilemap.extras@a80140457adc)
+    com.unity.2d.tooling@3.0.1 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.tooling@6f06ffb033c0)
+    com.unity.collab-proxy@2.12.4 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.38 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.19.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.inputsystem@21a28c3a6c83)
+    com.unity.purchasing@5.4.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.purchasing@a8ccc2b32004)
+    com.unity.timeline@1.8.12 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.visualscripting@8bed5ad90189)
+    com.unity.services.core@1.18.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.services.core@3464cb68d709)
+    com.unity.2d.common@14.0.1 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.common@73badf92ba8b)
+    com.unity.searcher@4.9.4 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.nuget.mono-cecil@1.11.6 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.test-framework.performance@8b56083ec0f0)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.sprite@d43791c37639)
+    com.unity.2d.tilemap@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.2d.tilemap@ec11fcef1fe5)
+    com.unity.multiplayer.center@1.0.1 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.multiplayer.center@095ed72d0927)
+    com.unity.render-pipelines.universal@17.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.render-pipelines.universal@df05ee5dde3a)
+    com.unity.test-framework@1.7.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.test-framework@773a3a4953ad)
+    com.unity.ugui@2.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.ugui@47f830c10234)
+    com.unity.modules.accessibility@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.ext.nunit@9054f8d1d690)
+    com.unity.render-pipelines.core@17.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.render-pipelines.core@57e2d961c623)
+    com.unity.shadergraph@17.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.shadergraph@674b88faf746)
+    com.unity.render-pipelines.universal-config@17.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.render-pipelines.universal-config@47de94ac0cce)
+    com.unity.mathematics@1.4.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.mathematics@bdc7f308708c)
+    com.unity.collections@6.5.0 (location: /home/rushi/projects/DiamondBlockBlast/Library/PackageCache/com.unity.collections@91fb845e8cf9)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.01 seconds
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://unix:/tmp/ilpp.sock-09231d76d86b061594c60f49be358971
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /home/rushi/projects/DiamondBlockBlast
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 29.6479ms
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.runtime.interopservices.windowsruntime has duplicate hint path. Ignoring "/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll" in favor of "/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
+warn: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Assembly system.componentmodel.composition has duplicate hint path. Ignoring "/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll" in favor of "/home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.ComponentModel.Composition.dll"
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Unity.Burst.Cecil, Version=0.11.6.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.burst@6bb9aca3ef38/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Resolved Mono.Cecil, Version=0.11.5.0, Culture=neutral, PublicKeyToken=50cebf1cceb9d05e with Library/PackageCache/com.unity.nuget.mono-cecil@ecb9724e46ff/Mono.Cecil.dll
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 19.1424ms
+ExitCode: 0 Duration: 0s213ms
+[ 993/1330  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.20 seconds), 1 items updated, 1330 evaluated
+AssetDatabase: script compilation time: 0.743378s
+Begin MonoManager ReloadAssembly
+Total cache size 267261516
+Total cache size after purge 267261516, took 00:00:00.1855633
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 6.65 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.02 ms, found 1 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.917 seconds
+Domain Reload Profiling: 3561ms
+	BeginReloadAssembly (121ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (233ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (132ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2918ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (2400ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Starting new worker id: 0 with log in /home/rushi/projects/DiamondBlockBlast/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=90be829eba0569deca442f3bc02c95ed): Total: 5.697 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=4023 ms
+		Asset DB Callback time: managed=199 ms, native=7 ms
+		Scripting: domain reloads=1, domain reload time=673 ms, compile time=745 ms, other=46 ms
+		Project Asset Count: scripts=2061, non-scripts=3385
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 8.091ms
+	ApplyChangesToAssetFolders: 0.281ms
+	Scan: 673.421ms
+	Collect global state as custom dependencies: 3.115ms
+	CategorizeScriptCompilationAssets: 70.178ms
+	ProcessAssetsWithTransientArtifactChanges: 65.998ms
+	CategorizeAssets: 53.482ms
+	CompileScripts: 744.790ms
+	ImportOutOfDateAssets: 3021.805ms (2960.264ms without children)
+		UnloadImportedAssets: 0.638ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.610ms
+		ImportSchedulerStart: 60.256ms
+	PostProcessAllAssets: 200.008ms
+		MonoPostProcessAllAssets: 199.947ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 11.710ms
+			SyncVS.PostprocessSyncProject 6.945ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 3.124ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.262ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.625ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.413ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.377ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.287ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.272ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.261ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.222ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.131ms
+	UnloadStreamsBegin: 1.709ms
+	PersistCurrentRevisions: 0.153ms
+	GenerateScriptTypeHashes: 1.797ms
+	GenerateScriptTypeSerializationHashes: 3.350ms
+	Untracked: 852.995ms
+
+Application.AssetDatabase Initial Refresh End
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+AutoLocale: current locale expects 'C' but got 'en_IN'Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Scanning for USB devices : 5.327ms
+Initializing Unity extensions:
+UpdateMenuTitleForLanguage: 10
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-DiamondBlockBlast
+Worker ready: AssetImportWorkerHW0 0
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_Project/Scenes/MainMenu.unity'
+	Deserialize:            127.762 ms
+	Integration:            307.788 ms
+	Integration of assets:  4.368 ms
+	Thread Wait Time:       -0.111 ms
+	Total Operation Time:   439.807 ms
+Unloading 8755 unused Assets / (7.7 MB). Loaded Objects now: 9772.
+Memory consumption went from 235.7 MB to 228.0 MB.
+Total: 27.823606 ms (FindLiveObjects: 1.017799 ms CreateObjectMapping: 6.099561 ms MarkObjects: 15.606578 ms  DeleteObjects: 5.098654 ms)
+
+[LAYOUT] About to load UserSettings/Layouts/default-6000.dwlt, keepMainWindow=False
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+[LAYOUT] About to save layout /home/rushi/projects/DiamondBlockBlast/UserSettings/Layouts/default-6000.dwlt
+[LAYOUT] About to save layout /home/rushi/.config/unity3d/Preferences/Editor-5.x/Layouts/current/default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Disable old input system
+[Project] Loading completed in 18.202 seconds
+	Project init time: 				13.718 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.187 seconds
+		Asset Database init time: 		0.451 seconds
+		Global illumination init time: 	0.003 seconds
+		Assemblies load time: 			6.345 seconds
+		Unity extensions init time: 	0.078 seconds
+		Asset Database refresh time: 	5.700 seconds
+	Scene opening time: 			3.564 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1783737210069,"processId":6814,"projectLoad":18.202404334,"projectInit":13.717685327,"templateInit":0.0,"packageManagerInit":0.187049478,"assetDatabaseInit":0.451487752,"globalIlluminationInit":0.003254398,"assembliesLoad":6.345324641,"unityExtensionsInit":0.077884281,"assetDatabaseRefresh":5.699943528,"sceneOpening":3.564018161}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1783737210069,"processId":6814,"editorVersion":"6000.5.2f1 (eb73d3b415a1)","branch":"6000.5/staging","buildType":"Release","platform":"Linux"}
+
+Asset Pipeline Refresh (id=60fdd5242e8e3c5efaa51af6610bb5d1): Total: 0.958 seconds - Initiated by RefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=957 ms
+		Asset DB Callback time: managed=0 ms, native=0 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=2061, non-scripts=3385
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.331ms
+	ApplyChangesToAssetFolders: 0.336ms
+	Scan: 811.139ms
+	Collect global state as custom dependencies: 0.178ms
+	ProcessAssetsWithTransientArtifactChanges: 0.330ms
+	CategorizeAssets: 59.872ms
+	CompileScripts: 0.084ms
+	ImportOutOfDateAssets: 70.308ms (16.352ms without children)
+		ReloadNativeAssets: 0.074ms
+		UnloadImportedAssets: 0.358ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.899ms
+		ImportSchedulerStart: 52.625ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.443ms
+	UnloadStreamsBegin: 3.687ms
+	PersistCurrentRevisions: 0.236ms
+	Untracked: 9.263ms
+
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Android Extension - Scanning For ADB Devices 1153 ms
+Created GICache directory at /home/rushi/.cache/unity3d/GiCache. Took: 0.004s, timestamps: [18.246 - 18.250]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "aCsE4Bg5"... (expires: 2026-07-11T04:32:29Z)
+[Licensing::Client] Successfully resolved entitlement details
+Android Extension - Scanning For ADB Devices 101 ms
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Starting new worker id: 1 with log in /home/rushi/projects/DiamondBlockBlast/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 52ca07bf92849848a9523716fa56586c - Path: Assets/_Project/Scripts/UI/MainMenu/MainMenuController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '7545df1f24aaa5ff7697b4b88bd3d630') in 0.061341543 seconds
+[Worker0] Imported GUID: ca960fe320b3f07e1bf064f745d4cc3c - Path: Assets/_Project/Scenes/MainMenu.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '070dfec7869c83757b5eab9f76c610db') in 0.02035889 seconds
+[Worker0] Imported GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8d1940801a2946725a273e96ebd19d63') in 0.015107954 seconds
+[Worker0] Imported GUID: ee9a4a69c1c022cf989fbb24180c8045 - Path: Assets/_Project/Scripts/UI/MainMenu/SettingsPanelController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '64e7b1d305509e530c7a36d2aff39b2a') in 0.016246246 seconds
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 194 ms
+Worker ready: AssetImportWorkerHW1 1
+UPID Received '34b46520-af6f-4387-b883-e26bcf71ef8e'.
+Android Extension - Scanning For ADB Devices 135 ms
+Asset Pipeline Refresh (id=2f49d5a05f691880795530917b5c4b8b): Total: 0.164 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9bfd4685b935f03dcba20e935a936d2f): Total: 0.162 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+TrimDiskCacheJob: Current cache size 0mb
+Asset Pipeline Refresh (id=ff186af545f13d727ac06ac17112044a): Total: 0.146 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=a5a0aee3cab4a2356a430258139e4909): Total: 0.105 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=7e6fcb6a66bb60ffca687ce1b67d71d9): Total: 0.110 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=13c217325aa7b1763bc57b19a9d55ed3): Total: 0.109 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=c4f2e0f7a10166f3693f808a6805bbcd): Total: 0.138 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=33e72fde1d3e12275b93bdcdb9b391eb): Total: 0.152 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=956bb492611edc0abb2b540a8b912164): Total: 0.126 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=92ae628682c14cd3f8f0038262c9013a): Total: 0.137 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e34b8d052ccb1e0b4878b89cdb427052): Total: 0.120 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=9ef73ac6963227ce5aea889dca5fc470): Total: 0.145 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=ca74e4dbaad883c2f90ec6a35c082e74): Total: 0.142 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=07e82a01f94751a6f92c586d92975138): Total: 0.145 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=0cdbcd41eeab076df9efb11b2267dd95): Total: 0.147 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=e0f376873da1077de9ac03912aa4b259): Total: 0.149 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)

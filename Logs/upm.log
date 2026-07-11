@@ -1,0 +1,30 @@
+[2026-07-11T02:33:12.940Z][INFO] Command-line: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Resources/PackageManager/Server/UnityPackageManager server -s 6814 --ipc-path /tmp/Unity-Upm-6814.sock -l 2 --log-file /home/rushi/projects/DiamondBlockBlast/Logs/upm.log
+[2026-07-11T02:33:12.969Z][INFO] IPC server started (IPC path=/tmp/Unity-Upm-6814.sock).
+[2026-07-11T02:33:12.970Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-6814.
+[2026-07-11T02:33:14.453Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:14.467Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:14.739Z][INFO] project:list-packages --> 200 (286 ms)
+[2026-07-11T02:33:19.816Z][INFO] project:list-packages --> 200 (5349 ms)
+[2026-07-11T02:33:19.959Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:19.970Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-11T02:33:19.993Z][INFO] config:project:get-registries --> 200 (23 ms)
+[2026-07-11T02:33:20.200Z][INFO] project:list-packages --> 200 (241 ms)
+[2026-07-11T02:33:22.495Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:22.519Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:22.708Z][INFO] project:list-packages --> 200 (213 ms)
+[2026-07-11T02:33:22.739Z][INFO] project:list-packages --> 200 (220 ms)
+[2026-07-11T02:33:24.827Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:24.962Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-11T02:33:24.993Z][INFO] project:list-packages --> 200 (166 ms)
+[2026-07-11T02:33:24.994Z][INFO] config:project:get-registries --> 200 (32 ms)
+[2026-07-11T02:33:29.846Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T02:33:30.096Z][INFO] project:list-packages --> 200 (251 ms)
