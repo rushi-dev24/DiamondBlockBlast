@@ -395,6 +395,79 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 604695066}
   m_CullTransparentMesh: 1
+--- !u!1001 &658817163
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 831326952}
+    m_Modifications:
+    - target: {fileID: 3956265934977945409, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_Name
+      value: BlockView
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 250
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+--- !u!4 &658817164 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7577809507206058325, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+  m_PrefabInstance: {fileID: 658817163}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &658817165 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 82571210871054774, guid: 027d2d51b2bad0ffdaf52e86daae7db5, type: 3}
+  m_PrefabInstance: {fileID: 658817163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfd35fca03d9363bb802db512404e3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlockPuzzle.Gameplay.Blocks.BlockView
 --- !u!1 &831326948
 GameObject:
   m_ObjectHideFlags: 0
@@ -492,6 +565,7 @@ RectTransform:
   m_Children:
   - {fileID: 604695067}
   - {fileID: 100918446}
+  - {fileID: 658817164}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -499,6 +573,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1107536033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1107536035}
+  - component: {fileID: 1107536034}
+  m_Layer: 0
+  m_Name: BlockRenderTester
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1107536034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107536033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a95d9db9647a2c4483f4e1857322fbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlockPuzzle.Gameplay.Blocks.BlockRenderTester
+  blockView: {fileID: 658817165}
+  testBlock: {fileID: 11400000, guid: ac919a519f7252b05b4b46b7399ad42f, type: 2}
+--- !u!4 &1107536035
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107536033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1217.289, y: 12.66688, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1277654447
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,3 +765,4 @@ SceneRoots:
   - {fileID: 831326952}
   - {fileID: 578678855}
   - {fileID: 1277654449}
+  - {fileID: 1107536035}

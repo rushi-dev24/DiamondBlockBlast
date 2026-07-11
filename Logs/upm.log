@@ -100,3 +100,12 @@ params: {}
 params: {}
 [2026-07-11T03:44:53.357Z][INFO] project:list-packages --> 200 (143 ms)
 [2026-07-11T03:44:53.357Z][INFO] config:project:get-registries --> 200 (5 ms)
+[2026-07-11T04:42:08.310Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T04:42:08.449Z][INFO] project:list-packages --> 200 (139 ms)
+[2026-07-11T04:42:08.535Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T04:42:08.654Z][INFO] project:list-packages --> 200 (119 ms)
+[2026-07-11T04:42:08.657Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-11T04:42:08.659Z][INFO] config:project:get-registries --> 200 (2 ms)
