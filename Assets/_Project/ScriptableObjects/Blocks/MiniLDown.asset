@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BlockPuzzle.Gameplay.Blocks.BlockData
   BlockId: MiniLDown
   Cells:
-  - X: 1
-    Y: 0
   - X: 0
     Y: 1
   - X: 1
     Y: 1
+  - X: 1
+    Y: 0

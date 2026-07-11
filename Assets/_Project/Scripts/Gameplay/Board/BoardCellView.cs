@@ -43,11 +43,20 @@ namespace BlockPuzzle.Gameplay.Board
         }
 
         public void SetOccupiedVisual(bool occupied)
+{
+    backgroundImage.color =
+        occupied
+            ? Color.blue
+            : defaultColor;
+}
+        public void ShowValidPreview()
         {
-            backgroundImage.color =
-                occupied
-                    ? Color.green
-                    : defaultColor;
+            backgroundImage.color = Color.green;
+        }
+
+        public void ShowInvalidPreview()
+        {
+            backgroundImage.color = Color.red;
         }
     }
 }

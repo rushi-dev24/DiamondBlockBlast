@@ -58,6 +58,7 @@
     <Compile Include="Assets/_Project/Scripts/Core/Bootstrap/GameRoot.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Blocks/BlockVisualCell.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/Benchmark02.cs" />
+    <Compile Include="Assets/_Project/Scripts/Gameplay/Board/BoardPlacementValidator.cs" />
     <Compile Include="Assets/_Project/Scripts/Services/Settings/SettingsService.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_ExampleScript_01.cs" />

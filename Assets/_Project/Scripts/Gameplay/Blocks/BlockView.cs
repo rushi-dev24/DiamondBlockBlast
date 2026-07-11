@@ -27,8 +27,13 @@ namespace BlockPuzzle.Gameplay.Blocks
 
         private BoardHoverService hoverService;
 
+        private BoardManager boardManager;
+
+        public BlockData BlockData { get; private set; }
+
         private void Awake()
         {
+            
             rectTransform = GetComponent<RectTransform>();
 
             canvas = GetComponentInParent<Canvas>();
@@ -41,13 +46,15 @@ namespace BlockPuzzle.Gameplay.Blocks
                 canvasGroup =
                     gameObject.AddComponent<CanvasGroup>();
             }
-
             hoverService =
                 FindFirstObjectByType<BoardHoverService>();
+            boardManager =
+                FindFirstObjectByType<BoardManager>();
         }
 
         public void Initialize(BlockData blockData)
         {
+            BlockData = blockData;
             Clear();
 
             int maxX = 0;
@@ -94,25 +101,46 @@ namespace BlockPuzzle.Gameplay.Blocks
             canvasGroup.blocksRaycasts = false;
         }
 
-        public void OnDrag(
-            PointerEventData eventData)
-        {
-            rectTransform.anchoredPosition +=
-                eventData.delta / canvas.scaleFactor;
+            public void OnDrag(
+                PointerEventData eventData)
+            {
+                rectTransform.anchoredPosition +=
+                    eventData.delta / canvas.scaleFactor;
 
-            hoverService?.UpdateHover(eventData);
-        }
+                hoverService?.UpdateHover(
+                    eventData,
+                    BlockData);
+            }
 
-        public void OnEndDrag(
-            PointerEventData eventData)
-        {
-            canvasGroup.blocksRaycasts = true;
+            public void OnEndDrag(
+                PointerEventData eventData)
+            {
+                canvasGroup.blocksRaycasts = true;
 
-            hoverService?.ClearCurrentHover();
+                if (hoverService != null &&
+                    hoverService.HasValidPlacement &&
+                    hoverService.CurrentHoveredCell != null)
+                {
+                    BoardCellView hoveredCell =
+                        hoverService.CurrentHoveredCell;
 
-            rectTransform.anchoredPosition =
-                originalPosition;
-        }
+                    boardManager.PlaceBlock(
+                        BlockData,
+                        hoveredCell.X,
+                        hoveredCell.Y);
+
+                    hoverService.ClearCurrentHover();
+
+                    Destroy(gameObject);
+
+                    return;
+                }
+
+                hoverService?.ClearCurrentHover();
+
+                rectTransform.anchoredPosition =
+                    originalPosition;
+            }
 
         private void Clear()
         {

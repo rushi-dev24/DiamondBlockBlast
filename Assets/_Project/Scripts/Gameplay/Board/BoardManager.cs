@@ -1,6 +1,7 @@
 using UnityEngine;
 
 using BlockPuzzle.Core.Constants;
+using BlockPuzzle.Gameplay.Blocks;
 
 namespace BlockPuzzle.Gameplay.Board
 {
@@ -55,6 +56,47 @@ namespace BlockPuzzle.Gameplay.Board
                             y,
                             cellView);
                 }
+            }
+        }
+        public BoardCell GetCell(BoardCellView view)
+        {
+            if (view == null)
+            {
+                return null;
+            }
+
+            return GetCell(
+                view.X,
+                view.Y);
+        }
+
+        public void PlaceBlock(
+            BlockData blockData,
+            int originX,
+            int originY)
+        {
+            foreach (BlockCellPosition shapeCell
+                in blockData.Cells)
+            {
+                int boardX =
+                    originX + shapeCell.X;
+
+                int boardY =
+                    originY - shapeCell.Y;
+
+                BoardCell boardCell =
+                    GetCell(
+                        boardX,
+                        boardY);
+
+                if (boardCell == null)
+                {
+                    continue;
+                }
+
+                boardCell.IsOccupied = true;
+
+                boardCell.View.SetOccupiedVisual(true);
             }
         }
     }

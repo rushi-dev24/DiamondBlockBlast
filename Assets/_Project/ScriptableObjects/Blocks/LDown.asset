@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BlockPuzzle.Gameplay.Blocks.BlockData
   BlockId: LDown
   Cells:
-  - X: 2
-    Y: 0
-  - X: 2
-    Y: 1
   - X: 0
     Y: 2
   - X: 1
     Y: 2
   - X: 2
     Y: 2
+  - X: 2
+    Y: 1
+  - X: 2
+    Y: 0
