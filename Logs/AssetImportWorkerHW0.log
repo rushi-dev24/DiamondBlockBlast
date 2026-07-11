@@ -766,3 +766,344 @@ Importing 'GUID: ee9a4a69c1c022cf989fbb24180c8045 - Path: Assets/_Project/Script
 Imported 'GUID: ee9a4a69c1c022cf989fbb24180c8045' -> (Import Result ID: '64e7b1d305509e530c7a36d2aff39b2a') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0efa116b5c632fe11819226f0e9db97 DependenciesID=22ff5f70578aada3d09a9d2e0fda1c9a StaticDependenciesID=bdc949ed08b89dd50eb0a6e8421e410a 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 1440ms
+	BeginReloadAssembly (166ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (658ms)
+		LoadAssemblies (316ms)
+		AnalyzeDomain (285ms)
+			TypeCache.Refresh (18ms)
+			BuildScriptInfoCaches (256ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (550ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8741 unused Assets / (4.4 MB). Loaded Objects now: 9587.
+Memory consumption went from 208.5 MB to 204.1 MB.
+Total: 9.971602 ms (FindLiveObjects: 0.510965 ms CreateObjectMapping: 2.340471 ms MarkObjects: 5.646066 ms  DeleteObjects: 1.473115 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.51 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.540 seconds
+Domain Reload Profiling: 1200ms
+	BeginReloadAssembly (144ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (231ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (541ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8741 unused Assets / (4.5 MB). Loaded Objects now: 9590.
+Memory consumption went from 208.7 MB to 204.3 MB.
+Total: 9.915166 ms (FindLiveObjects: 0.515712 ms CreateObjectMapping: 1.696333 ms MarkObjects: 6.055131 ms  DeleteObjects: 1.646890 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:18:15.865471Z
+  Time since last request: 2681.57914413400022 seconds.
+  importAddress: GUID: ca960fe320b3f07e1bf064f745d4cc3c - Path: Assets/_Project/Scenes/MainMenu.unity - Importer: PreviewImporter
+Importing 'GUID: ca960fe320b3f07e1bf064f745d4cc3c - Path: Assets/_Project/Scenes/MainMenu.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ca960fe320b3f07e1bf064f745d4cc3c' -> (Import Result ID: '1d1a052192621efab3dc6c16136d802e') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=417bd7de534b67e7785acfa164df4a6f DependenciesID=ad747442745f6ed5ef34f9bd703adfdc StaticDependenciesID=103c0b40753e5e7cd7c536e21b2e8360 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:20:59.321274Z
+  Time since last request: 163.43646769899999 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: 'bc838e67d51878050ed3fa19d331ac27') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87dd711df587e099a77e1655637e151e DependenciesID=8da56b75d924e2e960b7308626f6e2c7 StaticDependenciesID=27fc9fab59964fa7f9f9ccdfab277ae7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:22:20.519463Z
+  Time since last request: 81.17265879 seconds.
+  importAddress: GUID: 2f9a0dbe59e4bfbbfb8cd5733a421f95 - Path: Assets/_Project/Scripts/Services/Save/SaveService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 2f9a0dbe59e4bfbbfb8cd5733a421f95 - Path: Assets/_Project/Scripts/Services/Save/SaveService.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 2f9a0dbe59e4bfbbfb8cd5733a421f95' -> (Import Result ID: '50dbf0806b7a3c662bed496f9ae199d9') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be6939497c8eb39225d59ac5ab0859b8 DependenciesID=387a79babd3509d6b0fd50c90f7235b5 StaticDependenciesID=bb7cf63115715e40e1269a4a49396fa4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8678 unused Assets / (5.4 MB). Loaded Objects now: 9591.
+Memory consumption went from 208.6 MB to 203.2 MB.
+Total: 14.117976 ms (FindLiveObjects: 0.617935 ms CreateObjectMapping: 3.389584 ms MarkObjects: 7.944996 ms  DeleteObjects: 2.164195 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:22:22.027432Z
+  Time since last request: 1.439716245 seconds.
+  importAddress: GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: PreviewImporter
+Importing 'GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 496b9836e299324339a119d35629baea' -> (Import Result ID: '18d4092326d99b48169dc11eb9e1f308') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f69907584c80437310b6ff679af077e DependenciesID=0c67e5fe78db92a01fb6e77c99824a8e StaticDependenciesID=6ab478b9721f73a496716c2720fe7a5b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:22:22.545911Z
+  Time since last request: 0.50812721 seconds.
+  importAddress: GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 496b9836e299324339a119d35629baea' -> (Import Result ID: '348ecec548ff86188ea58ee4076d345c') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a3e78236b51da78229512f825f3cfdf5 DependenciesID=a026518dfd52135254d9faca289c4dc5 StaticDependenciesID=fb56bc4c1335672eb747c590f211e578 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1595ms
+	BeginReloadAssembly (161ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (639ms)
+		LoadAssemblies (243ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (20ms)
+			BuildScriptInfoCaches (290ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (746ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (254ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8742 unused Assets / (5.9 MB). Loaded Objects now: 9594.
+Memory consumption went from 209.0 MB to 203.1 MB.
+Total: 14.064936 ms (FindLiveObjects: 0.534257 ms CreateObjectMapping: 2.669085 ms MarkObjects: 8.416743 ms  DeleteObjects: 2.440983 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:22:30.164499Z
+  Time since last request: 7.605154037 seconds.
+  importAddress: GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: PreviewImporter
+Importing 'GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 496b9836e299324339a119d35629baea' -> (Import Result ID: 'e5bea3d89ee01f46d16c60fecef0ac08') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f69907584c80437310b6ff679af077e DependenciesID=4656c8b06980edb652d82561a62b34a5 StaticDependenciesID=6ab478b9721f73a496716c2720fe7a5b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 3.33 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.664 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (149ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (231ms)
+		AnalyzeDomain (230ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (208ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (665ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8744 unused Assets / (4.5 MB). Loaded Objects now: 9599.
+Memory consumption went from 209.1 MB to 204.7 MB.
+Total: 9.108353 ms (FindLiveObjects: 0.536440 ms CreateObjectMapping: 1.638112 ms MarkObjects: 5.385410 ms  DeleteObjects: 1.547259 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.51 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9599.
+Memory consumption went from 203.9 MB to 201.3 MB.
+Total: 8.092206 ms (FindLiveObjects: 0.348928 ms CreateObjectMapping: 1.151770 ms MarkObjects: 6.247398 ms  DeleteObjects: 0.340790 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:27:23.870067Z
+  Time since last request: 293.687906398 seconds.
+  importAddress: GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 496b9836e299324339a119d35629baea - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCell.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 496b9836e299324339a119d35629baea' -> (Import Result ID: 'b190df440032242ae48c4dfc82b62a04') in 0.080 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=322fac96c2451d081ac37e99cd10fc8b DependenciesID=192609829980395cbf9f3e0cc9c2f697 StaticDependenciesID=511c7d9d5ef05ef0cf5d561d66445a55 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:27:23.973291Z
+  Time since last request: 0.000605773 seconds.
+  importAddress: GUID: 28059c961d95f4b00b7f2aeadc491e7f - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCellView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 28059c961d95f4b00b7f2aeadc491e7f - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCellView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 28059c961d95f4b00b7f2aeadc491e7f' -> (Import Result ID: 'cce852f3ec2f24b45af6b87b70b970c3') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d249e581e438f429d1fad9dee8b2a65 DependenciesID=0382411a9959aec1a07f33f8e748f00c StaticDependenciesID=ff526403efa6af57f7f0af8d7adc1431 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:27:28.246968Z
+  Time since last request: 4.251725754 seconds.
+  importAddress: GUID: 810e0e91b47f891d09b1859e40c9e7ad - Path: Assets/_Project/Prefabs/Gameplay/BoardCell.prefab - Importer: PreviewImporter
+Importing 'GUID: 810e0e91b47f891d09b1859e40c9e7ad - Path: Assets/_Project/Prefabs/Gameplay/BoardCell.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 810e0e91b47f891d09b1859e40c9e7ad' -> (Import Result ID: '1719a8340f5507c1a9fe35a3d3bd4d51') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff3c66caa9ad70e0909db55e4650c210 DependenciesID=e62be2fcd735548241873cc5fb90d795 StaticDependenciesID=e9bcb248acc5f5120eaa16c627c48294 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:27:29.221827Z
+  Time since last request: 0.940245462 seconds.
+  importAddress: GUID: 810e0e91b47f891d09b1859e40c9e7ad - Path: Assets/_Project/Prefabs/Gameplay/BoardCell.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 810e0e91b47f891d09b1859e40c9e7ad - Path: Assets/_Project/Prefabs/Gameplay/BoardCell.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 810e0e91b47f891d09b1859e40c9e7ad' -> (Import Result ID: '4937e23694bb80bbc0c8b41e8b2baf82') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d3097beb8ce09ca368dc1396d00da84 DependenciesID=aed5bec09eb356525155fa23c22ced3e StaticDependenciesID=e0b085dc8bd72abe5ba8f234319b4aff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:29:15.421552Z
+  Time since last request: 106.14218967399999 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '18e72936ee9a8c03fa10d4eb77792b98') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4e5eae6a7fcfc483c5fef4090f258b5 DependenciesID=0a41c31b74c1d2fc458bcc5c6eb4d405 StaticDependenciesID=439f46197a02281a9af66e8b8ce72bff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:29:41.232939Z
+  Time since last request: 25.784441272 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '06160ebaec6a4566bd0b7c7d34155723') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=719e88f4186d536bd24c7d0062c585a3 DependenciesID=cbdbf995b4f2477e69d5cfa605aad16a StaticDependenciesID=db52119ca8ef696b8dfbe378c9488b23 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:29:45.199614Z
+  Time since last request: 3.948183387 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '19e823196a3a329ff58c220b0dabdd66') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2b881a28878f155d7c363ec1b3239958 DependenciesID=67565554a1b746d45e3d7653806cdecf StaticDependenciesID=d57f34ec77e8b293aab94590bcefa767 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:29:57.590193Z
+  Time since last request: 12.362596324 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '77dfff694c9e01e5d2dab6da649567f1') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=737ac1597289a2fffd7ad8f23c5a2f38 DependenciesID=fa73698a2872c1282932061451068eba StaticDependenciesID=96e0b9d7d1147a70f5c853e89b56ba0e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:33:19.051886Z
+  Time since last request: 201.43735457700001 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: 'ee1f5c1ff414f0d250363e3ea2cea5ee') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=493b1f5877b4cdd47254bec7bede6f4b DependenciesID=4af1117d3333516f5c1275e28141efd8 StaticDependenciesID=373338e6180f2d77df8f6f8c27b57de9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

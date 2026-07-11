@@ -24,8 +24,6 @@ namespace BlockPuzzle.Services.Save
             if (!PlayerPrefs.HasKey(SaveKeys.SaveDataKey))
             {
                 CreateNewSave();
-
-                Debug.Log($"Created Save. High Score: {Data.HighScore}");
                 return;
             }
 
@@ -36,12 +34,8 @@ namespace BlockPuzzle.Services.Save
             if (Data == null)
             {
                 CreateNewSave();
-
-                Debug.Log($"Recovered Save. High Score: {Data.HighScore}");
                 return;
             }
-
-            Debug.Log($"Loaded Save. High Score: {Data.HighScore}");
         }
 
         public void ResetSave()
@@ -53,8 +47,6 @@ namespace BlockPuzzle.Services.Save
         private void CreateNewSave()
         {
             Data = new SaveData();
-
-            Data.HighScore = 998;
 
             Save();
         }
