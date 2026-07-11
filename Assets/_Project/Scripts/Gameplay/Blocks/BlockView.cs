@@ -29,6 +29,8 @@ namespace BlockPuzzle.Gameplay.Blocks
 
         private BoardManager boardManager;
 
+        private BlockTrayManager trayManager;
+        
         public BlockData BlockData { get; private set; }
 
         private void Awake()
@@ -50,6 +52,8 @@ namespace BlockPuzzle.Gameplay.Blocks
                 FindFirstObjectByType<BoardHoverService>();
             boardManager =
                 FindFirstObjectByType<BoardManager>();
+            trayManager =
+                FindFirstObjectByType<BlockTrayManager>();
         }
 
         public void Initialize(BlockData blockData)
@@ -130,6 +134,8 @@ namespace BlockPuzzle.Gameplay.Blocks
                         hoveredCell.Y);
 
                     hoverService.ClearCurrentHover();
+
+                    trayManager?.NotifyBlockUsed(this);
 
                     Destroy(gameObject);
 

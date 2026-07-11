@@ -63,5 +63,20 @@ namespace BlockPuzzle.Gameplay.Blocks
 
             activeBlocks.Clear();
         }
+
+        public void NotifyBlockUsed(BlockView blockView)
+        {
+            if (blockView == null)
+            {
+                return;
+            }
+
+            activeBlocks.Remove(blockView);
+
+            if (activeBlocks.Count == 0)
+            {
+                GenerateTray();
+            }
+        }
     }
 }
