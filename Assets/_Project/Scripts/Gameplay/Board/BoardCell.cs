@@ -8,10 +8,16 @@ namespace BlockPuzzle.Gameplay.Board
 
         public bool IsOccupied { get; set; }
 
-        public BoardCell(int x, int y)
+        public BoardCellView View { get; }
+
+        public BoardCell(
+            int x,
+            int y,
+            BoardCellView view)
         {
             X = x;
             Y = y;
+            View = view;
             IsOccupied = false;
         }
     }

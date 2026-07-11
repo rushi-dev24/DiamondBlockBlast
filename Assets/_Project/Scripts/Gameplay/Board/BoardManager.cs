@@ -17,6 +17,21 @@ namespace BlockPuzzle.Gameplay.Board
         private void Start()
         {
             GenerateBoard();
+
+            RunDebugTest();
+        }
+
+        public BoardCell GetCell(int x, int y)
+        {
+            if (x < 0 ||
+                x >= AppConstants.BoardWidth ||
+                y < 0 ||
+                y >= AppConstants.BoardHeight)
+            {
+                return null;
+            }
+
+            return cells[x, y];
         }
 
         private void GenerateBoard()
@@ -29,13 +44,27 @@ namespace BlockPuzzle.Gameplay.Board
             {
                 for (int x = 0; x < AppConstants.BoardWidth; x++)
                 {
-                    cells[x, y] = new BoardCell(x, y);
+                    BoardCellView cellView =
+                        Instantiate(
+                            cellPrefab,
+                            cellParent);
 
-                    Instantiate(
-                        cellPrefab,
-                        cellParent);
+                    cells[x, y] =
+                        new BoardCell(
+                            x,
+                            y,
+                            cellView);
                 }
             }
+        }
+
+        private void RunDebugTest()
+        {
+            BoardCell centerCell = GetCell(3, 3);
+
+            centerCell.IsOccupied = true;
+
+            centerCell.View.SetOccupiedVisual(true);
         }
     }
 }

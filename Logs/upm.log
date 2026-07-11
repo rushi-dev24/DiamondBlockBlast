@@ -64,3 +64,12 @@ params: {}
 params: {}
 [2026-07-11T03:23:38.175Z][INFO] project:list-packages --> 200 (148 ms)
 [2026-07-11T03:23:38.175Z][INFO] config:project:get-registries --> 200 (27 ms)
+[2026-07-11T03:38:09.822Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T03:38:09.973Z][INFO] project:list-packages --> 200 (151 ms)
+[2026-07-11T03:38:10.016Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-07-11T03:38:10.147Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-07-11T03:38:10.169Z][INFO] project:list-packages --> 200 (153 ms)
+[2026-07-11T03:38:10.169Z][INFO] config:project:get-registries --> 200 (22 ms)

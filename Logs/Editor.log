@@ -1419,3 +1419,202 @@ Total: 20.682569 ms (FindLiveObjects: 0.425668 ms CreateObjectMapping: 1.316166 
 
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/Ping'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/Ping - 200 - application/grpc 0.3832ms
+Starting: /home/rushi/Unity/Hub/Editor/6000.5.2f1/Editor/Data/Tools/BuildPipeline/bee_backend --ipc --defer-dag-verification --dagfile="Library/Bee/1300b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: /home/rushi/projects/DiamondBlockBlast
+[Licensing::Client] Successfully resolved entitlement details
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Unity.ILPP.Runner.PostProcessingAssemblyLoadContext[0]
+      Current configuration matches the requested one, skipping
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/ConfigurePostProcessors'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/ConfigurePostProcessors - 200 - application/grpc 0.4750ms
+info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+      Request starting HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - application/grpc -
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+      Executing endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running Unity.Jobs.CodeGen.JobsILPostProcessor
+info: Unity.ILPP.Runner.PostProcessingPipeline[0]
+      running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+      Executed endpoint 'gRPC - /UnityILPP.PostProcessing/PostProcessAssembly'
+info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+      Request finished HTTP/2 POST http://ilpp/UnityILPP.PostProcessing/PostProcessAssembly - 200 - application/grpc 30.3613ms
+ExitCode: 0 Duration: 1s204ms
+[ 992/1330  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1326/1330  1s] Csc Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1327/1330  0s] ILPostProcess Library/Bee/artifacts/1300b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1300b0aE.dag/Assembly-CSharp.dll, with 151 defines and 368 references
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1328/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1329/1330  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (1.17 seconds), 5 items updated, 1330 evaluated
+Total cache size 267261516
+Total cache size after purge 267261516, took 00:00:00.1976107
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.437 seconds
+Domain Reload Profiling: 2765ms
+	BeginReloadAssembly (985ms)
+		DisableScriptedObjects (103ms)
+		CreateAndSetChildDomain (480ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (71ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1438ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (203ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (396ms)
+Refreshing native plugins compatible for Editor in 3.69 ms, found 1 plugins.
+
+Asset Pipeline Refresh (id=056be4c9410ed5cebb370b84bd9062ac): Total: 5.005 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2210 ms
+		Asset DB Callback time: managed=68 ms, native=10 ms
+		Scripting: domain reloads=1, domain reload time=1364 ms, compile time=1352 ms, other=0 ms
+		Project Asset Count: scripts=2061, non-scripts=3386
+		Asset File Changes: new=0, changed=3, moved=0, deleted=0
+		Scan Filter Count: 1
+	InvokePackagesCallback: 0.590ms
+	ApplyChangesToAssetFolders: 0.508ms
+	Scan: 617.584ms
+	Collect global state as custom dependencies: 3.090ms
+	OnSourceAssetsModified: 0.054ms
+	ProcessAssetsWithTransientArtifactChanges: 5.559ms
+	CategorizeAssets: 54.530ms
+	CompileScripts: 1351.765ms
+	ImportOutOfDateAssets: 1491.588ms (1459.336ms without children)
+		CollectScriptTypesHashes: 1.328ms
+		ReloadNativeAssets: 0.953ms
+		UnloadImportedAssets: 0.250ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.857ms
+		ImportSchedulerStart: 30.154ms
+	PostProcessAllAssets: 73.166ms
+		XRBuildSystem.XRAssetImported 4.309ms
+		PostProcessCallbackCreateDeferredMaterials 0.063ms
+		MonoPostProcessAllAssets: 68.359ms
+			SyncVS.PostprocessSyncProject 9.006ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 7.693ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.273ms
+			AssetChangedListener.OnPostprocessAllAssets 5.514ms
+			AssetPostprocessor.OnPostprocessAllAssets 4.131ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.809ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.379ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.122ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.860ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 1.038ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.038ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.909ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.698ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.689ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.591ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.590ms
+			SampleDependencyImporterPostProcessor.OnPostprocessAllAssets 0.489ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.484ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.432ms
+			AssetEvents.OnPostprocessAllAssets 0.429ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 0.422ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.377ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.365ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.363ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.342ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.320ms
+			PostProcessor.OnPostprocessAllAssets 0.281ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.251ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.201ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.199ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.182ms
+			AssetPostprocessorProxy.OnPostprocessAllAssets 0.177ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.158ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.154ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.154ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.151ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.145ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.109ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.101ms
+			AssetProcessor.OnPostprocessAllAssets 0.061ms
+	PostAssetChangesProfiler: 5.177ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.572ms
+	UnloadStreamsBegin: 0.062ms
+	PersistCurrentRevisions: 0.251ms
+	GenerateScriptTypeHashes: 2.573ms
+	GenerateScriptTypeSerializationHashes: 5.041ms
+	Untracked: 1398.079ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+SpriteAtlasPacking completed in 0.004300 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.883 ms
+	Integration:            320.663 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   322.575 ms
+Asset Pipeline Refresh (id=932b898207d7c2c6fa9c51dcfe9ec7b4): Total: 0.152 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=e239f800f716db2c9885e55d640134cf): Total: 0.183 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.331 ms
+	Integration:            255.744 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.064 ms
+	Total Operation Time:   258.142 ms
+Unloading 71 unused Assets / (153.7 KB). Loaded Objects now: 11010.
+Memory consumption went from 352.7 MB to 352.5 MB.
+Total: 18.265583 ms (FindLiveObjects: 0.448013 ms CreateObjectMapping: 0.920745 ms MarkObjects: 16.795805 ms  DeleteObjects: 0.099455 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+SpriteAtlasPacking completed in 0.008750 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.208 ms
+	Integration:            262.663 ms
+	Integration of assets:  0.006 ms
+	Thread Wait Time:       0.001 ms
+	Total Operation Time:   263.878 ms
