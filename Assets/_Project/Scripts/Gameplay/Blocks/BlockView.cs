@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using BlockPuzzle.Gameplay.Board;
 
 namespace BlockPuzzle.Gameplay.Blocks
 {
@@ -24,6 +25,8 @@ namespace BlockPuzzle.Gameplay.Blocks
 
         private Vector2 originalPosition;
 
+        private BoardHoverService hoverService;
+
         private void Awake()
         {
             rectTransform = GetComponent<RectTransform>();
@@ -38,6 +41,9 @@ namespace BlockPuzzle.Gameplay.Blocks
                 canvasGroup =
                     gameObject.AddComponent<CanvasGroup>();
             }
+
+            hoverService =
+                FindFirstObjectByType<BoardHoverService>();
         }
 
         public void Initialize(BlockData blockData)
@@ -93,12 +99,16 @@ namespace BlockPuzzle.Gameplay.Blocks
         {
             rectTransform.anchoredPosition +=
                 eventData.delta / canvas.scaleFactor;
+
+            hoverService?.UpdateHover(eventData);
         }
 
         public void OnEndDrag(
             PointerEventData eventData)
         {
             canvasGroup.blocksRaycasts = true;
+
+            hoverService?.ClearCurrentHover();
 
             rectTransform.anchoredPosition =
                 originalPosition;
