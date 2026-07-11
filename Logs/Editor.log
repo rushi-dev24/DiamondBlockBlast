@@ -19382,3 +19382,99 @@ Loaded scene 'Temp/__Backupscenes/0.backup'
 	Integration of assets:  0.003 ms
 	Thread Wait Time:       0.113 ms
 	Total Operation Time:   256.971 ms
+Asset Pipeline Refresh (id=1f40045422e4f358ab738b5eaad2adb5): Total: 0.153 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.204 ms
+	Integration:            274.396 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.069 ms
+	Total Operation Time:   276.673 ms
+Unloading 2 unused Assets / (433.7 KB). Loaded Objects now: 11131.
+Memory consumption went from 377.1 MB to 376.7 MB.
+Total: 16.123202 ms (FindLiveObjects: 0.600913 ms CreateObjectMapping: 1.568356 ms MarkObjects: 13.867711 ms  DeleteObjects: 0.080512 ms)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+SpriteAtlasPacking completed in 0.009511 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.621 ms
+	Integration:            278.062 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.145 ms
+	Total Operation Time:   279.832 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.941 ms
+	Integration:            260.672 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.016 ms
+	Total Operation Time:   262.634 ms
+Unloading 2 unused Assets / (266.3 KB). Loaded Objects now: 11131.
+Memory consumption went from 377.3 MB to 377.1 MB.
+Total: 14.313913 ms (FindLiveObjects: 0.414122 ms CreateObjectMapping: 0.913368 ms MarkObjects: 12.898297 ms  DeleteObjects: 0.086837 ms)
+
+SpriteAtlasPacking completed in 0.004914 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.085 ms
+	Integration:            249.493 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.000 ms
+	Total Operation Time:   250.583 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.205 ms
+	Integration:            250.883 ms
+	Integration of assets:  0.008 ms
+	Thread Wait Time:       0.071 ms
+	Total Operation Time:   253.167 ms
+Unloading 2 unused Assets / (110.6 KB). Loaded Objects now: 11131.
+Memory consumption went from 376.7 MB to 376.6 MB.
+Total: 16.293378 ms (FindLiveObjects: 0.449195 ms CreateObjectMapping: 0.976886 ms MarkObjects: 14.782349 ms  DeleteObjects: 0.083637 ms)
+
+SpriteAtlasPacking completed in 0.009830 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.316 ms
+	Integration:            258.790 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.053 ms
+	Total Operation Time:   260.163 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.097 ms
+	Integration:            250.442 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.114 ms
+	Total Operation Time:   252.658 ms
+Unloading 2 unused Assets / (0.5 MB). Loaded Objects now: 11131.
+Memory consumption went from 377.2 MB to 376.6 MB.
+Total: 17.310479 ms (FindLiveObjects: 0.443211 ms CreateObjectMapping: 0.928238 ms MarkObjects: 15.848973 ms  DeleteObjects: 0.089008 ms)
+
+SpriteAtlasPacking completed in 0.008193 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1.361 ms
+	Integration:            250.714 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.109 ms
+	Total Operation Time:   252.191 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            2.165 ms
+	Integration:            258.205 ms
+	Integration of assets:  0.005 ms
+	Thread Wait Time:       0.116 ms
+	Total Operation Time:   260.491 ms
+Unloading 2 unused Assets / (401.5 KB). Loaded Objects now: 11131.
+Memory consumption went from 377.3 MB to 376.9 MB.
+Total: 14.606693 ms (FindLiveObjects: 0.442239 ms CreateObjectMapping: 1.046822 ms MarkObjects: 13.027522 ms  DeleteObjects: 0.089128 ms)
+
+Asset Pipeline Refresh (id=63dfc8cbbc24884638970581a20fed18): Total: 0.145 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=85fde4b329d1cf3559c267bd5189c171): Total: 0.156 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
