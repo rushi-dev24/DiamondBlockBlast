@@ -9,10 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19347856e0c62df98a9bece28cdc3575, type: 3}
+  m_Script: {fileID: 11500000, guid: f0aa9a4179c737479b8f8afc13d6d620, type: 3}
   m_Name: SingleBlock
-  m_EditorClassIdentifier: Assembly-CSharp::BlockData
-  blockName: Single Block
-  blockSprite: {fileID: 0}
-  cells:
-  - {x: 0, y: 0}
+  m_EditorClassIdentifier: Assembly-CSharp::BlockPuzzle.Gameplay.Blocks.BlockData
+  BlockId: Single
+  Cells:
+  - X: 0
+    Y: 0

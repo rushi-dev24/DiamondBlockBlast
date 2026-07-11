@@ -998,3 +998,466 @@ Memory consumption went from 209.5 MB to 204.6 MB.
 Total: 10.840624 ms (FindLiveObjects: 0.514756 ms CreateObjectMapping: 2.390270 ms MarkObjects: 5.796157 ms  DeleteObjects: 2.138247 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.580 seconds
+Domain Reload Profiling: 1295ms
+	BeginReloadAssembly (146ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (264ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (16ms)
+			BuildScriptInfoCaches (181ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (581ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8744 unused Assets / (5.0 MB). Loaded Objects now: 9625.
+Memory consumption went from 209.7 MB to 204.7 MB.
+Total: 10.043008 ms (FindLiveObjects: 0.650799 ms CreateObjectMapping: 2.121355 ms MarkObjects: 5.611428 ms  DeleteObjects: 1.658434 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:35.739498Z
+  Time since last request: 971.78309681099995 seconds.
+  importAddress: GUID: 3f78f84d26dcf75aa87bfdc106f0367e - Path: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3f78f84d26dcf75aa87bfdc106f0367e - Path: Assets/_Project/Scripts/Gameplay/Board/BoardManager.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3f78f84d26dcf75aa87bfdc106f0367e' -> (Import Result ID: '7fb4b522fe364b1cbb369361e316adb1') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7d2714abb2976c6ae35627b28b0beee3 DependenciesID=1a676f2ab9317854370731f05df01992 StaticDependenciesID=1780f32ce75e519d5d3e7b50b72adaf5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:35.814195Z
+  Time since last request: 0.000631037 seconds.
+  importAddress: GUID: 28059c961d95f4b00b7f2aeadc491e7f - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCellView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 28059c961d95f4b00b7f2aeadc491e7f - Path: Assets/_Project/Scripts/Gameplay/Board/BoardCellView.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 28059c961d95f4b00b7f2aeadc491e7f' -> (Import Result ID: '2e99f1fb13ce3f0c9eaa433d56a8e15b') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7217681d9ba725386f3481a79d70f94 DependenciesID=8bcf8f7692be138cf5ae51b124f5cbcf StaticDependenciesID=c4c4b2d8e708060cb0d033490996957c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.17 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8681 unused Assets / (4.3 MB). Loaded Objects now: 9626.
+Memory consumption went from 209.5 MB to 205.2 MB.
+Total: 13.232884 ms (FindLiveObjects: 1.080521 ms CreateObjectMapping: 4.625350 ms MarkObjects: 5.771586 ms  DeleteObjects: 1.754196 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.47 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.738 seconds
+Domain Reload Profiling: 1622ms
+	BeginReloadAssembly (187ms)
+		DisableScriptedObjects (23ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (621ms)
+		LoadAssemblies (286ms)
+		AnalyzeDomain (277ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (258ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (739ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (124ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.31 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8745 unused Assets / (5.4 MB). Loaded Objects now: 9629.
+Memory consumption went from 209.9 MB to 204.4 MB.
+Total: 16.313814 ms (FindLiveObjects: 0.556971 ms CreateObjectMapping: 2.882847 ms MarkObjects: 10.598393 ms  DeleteObjects: 2.274041 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.725179Z
+  Time since last request: 9.899627351 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.738708Z
+  Time since last request: 0.002302202 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.755352Z
+  Time since last request: 0.006971685 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.783646Z
+  Time since last request: 0.018820336 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.804454Z
+  Time since last request: 0.007150607 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.823393Z
+  Time since last request: 0.007663923 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.842243Z
+  Time since last request: 0.007986067 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.862836Z
+  Time since last request: 0.006943988 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.882906Z
+  Time since last request: 0.00631725 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.000 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:43:45.905507Z
+  Time since last request: 0.006496939 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '00000000000000000000000000000000') in 0.001 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+  ERROR: Build asset version error: assets/_project/scripts/gameplay/blocks/blockcellposition.cs in SourceAssetDB has modification time of '2026-07-11T03:43:36Z' while content on disk has modification time of '2026-07-11T03:43:45Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.21 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.14 ms, found 1 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.574 seconds
+Domain Reload Profiling: 1247ms
+	BeginReloadAssembly (144ms)
+		DisableScriptedObjects (13ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (465ms)
+		LoadAssemblies (225ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (169ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (575ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.46 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8747 unused Assets / (6.2 MB). Loaded Objects now: 9634.
+Memory consumption went from 210.0 MB to 203.8 MB.
+Total: 15.453247 ms (FindLiveObjects: 0.618249 ms CreateObjectMapping: 2.861929 ms MarkObjects: 8.755299 ms  DeleteObjects: 3.215360 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:44:55.855937Z
+  Time since last request: 69.936993642 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '558653bb73c7208bf65fa5a6eaf1832b') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64a805a2619274e5bf013c75f5ad3bf4 DependenciesID=9e6f8eec998208a3e7dbcb8e194de65a StaticDependenciesID=7fbb99f1a91bddc7983487ab6e631252 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.31 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9634.
+Memory consumption went from 204.8 MB to 202.2 MB.
+Total: 25.653363 ms (FindLiveObjects: 0.355796 ms CreateObjectMapping: 0.963244 ms MarkObjects: 23.864679 ms  DeleteObjects: 0.468331 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:46:21.296229Z
+  Time since last request: 85.43668943500001 seconds.
+  importAddress: GUID: f0aa9a4179c737479b8f8afc13d6d620 - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f0aa9a4179c737479b8f8afc13d6d620 - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockData.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f0aa9a4179c737479b8f8afc13d6d620' -> (Import Result ID: 'f6f7f49675e52c7fb0db93b14c95cb6c') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b27fec4e13849e9c155a14a82f07cc4d DependenciesID=5106204a7c550d5b774c13f2d13028fc StaticDependenciesID=37920e2c51577339a6239739e7c77388 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T03:46:21.381477Z
+  Time since last request: 0.000769477 seconds.
+  importAddress: GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cf312eef3c434810d9b0bd5f36412d7e - Path: Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cf312eef3c434810d9b0bd5f36412d7e' -> (Import Result ID: '485061ee74750e88d6890eb879c4b22c') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0a34285d0633bd97fa0c53ce408df8fa DependenciesID=578bb919c5990edb853974335b0db802 StaticDependenciesID=ed5cb0341b59bc507537cf29527a51bb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.84 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (2.6 MB). Loaded Objects now: 9634.
+Memory consumption went from 204.8 MB to 202.2 MB.
+Total: 8.595183 ms (FindLiveObjects: 0.342190 ms CreateObjectMapping: 0.821290 ms MarkObjects: 6.899087 ms  DeleteObjects: 0.531223 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.24 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9634.
+Memory consumption went from 204.9 MB to 202.3 MB.
+Total: 12.550254 ms (FindLiveObjects: 0.457161 ms CreateObjectMapping: 1.483276 ms MarkObjects: 10.193507 ms  DeleteObjects: 0.414690 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.20 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9634.
+Memory consumption went from 204.9 MB to 202.3 MB.
+Total: 10.168923 ms (FindLiveObjects: 0.317277 ms CreateObjectMapping: 1.159067 ms MarkObjects: 8.152951 ms  DeleteObjects: 0.537813 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T04:16:26.598848Z
+  Time since last request: 1805.23341894400005 seconds.
+  importAddress: GUID: c20b88bc0f98e11da8f769fffbfa667e - Path: Assets/_Project/ScriptableObjects/Blocks/ThreeHorizontal.asset - Importer: PreviewImporter
+Importing 'GUID: c20b88bc0f98e11da8f769fffbfa667e - Path: Assets/_Project/ScriptableObjects/Blocks/ThreeHorizontal.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c20b88bc0f98e11da8f769fffbfa667e' -> (Import Result ID: '3d93c24987f98d00bf1b4e9041bd400a') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1931a0137788d3bcbe3938bd2c9048ca DependenciesID=e1d520c9927146d0a26eed63ae4e5a65 StaticDependenciesID=3dad05d8d0ffcba8c9e63e2ffdff24c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.25 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9635.
+Memory consumption went from 205.0 MB to 202.4 MB.
+Total: 12.427723 ms (FindLiveObjects: 0.498861 ms CreateObjectMapping: 0.788167 ms MarkObjects: 10.723809 ms  DeleteObjects: 0.415298 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.71 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9635.
+Memory consumption went from 205.0 MB to 202.4 MB.
+Total: 10.699797 ms (FindLiveObjects: 0.310155 ms CreateObjectMapping: 1.169479 ms MarkObjects: 8.649980 ms  DeleteObjects: 0.568235 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T04:21:06.469064Z
+  Time since last request: 279.83640532099997 seconds.
+  importAddress: GUID: 8b50bd75ec2377faeab121099c594258 - Path: Assets/_Project/ScriptableObjects/Blocks/FiveHorizontal.asset - Importer: PreviewImporter
+Importing 'GUID: 8b50bd75ec2377faeab121099c594258 - Path: Assets/_Project/ScriptableObjects/Blocks/FiveHorizontal.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8b50bd75ec2377faeab121099c594258' -> (Import Result ID: '7f7f7ec42334e9c225f82e5a9f1ceac6') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2802b2332226cc506c52c81e0c011258 DependenciesID=36d5a71b338f4bdc30a287f7121b715f StaticDependenciesID=0f830b2304ecd18776c5a44396e3035f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.30 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9635.
+Memory consumption went from 205.1 MB to 202.5 MB.
+Total: 8.289531 ms (FindLiveObjects: 0.441777 ms CreateObjectMapping: 1.191041 ms MarkObjects: 6.308306 ms  DeleteObjects: 0.346815 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T04:22:52.371078Z
+  Time since last request: 105.885711141 seconds.
+  importAddress: GUID: 0c56c43b59b374ce58c177d14ddc014e - Path: Assets/_Project/ScriptableObjects/Blocks/LLeft.asset - Importer: PreviewImporter
+Importing 'GUID: 0c56c43b59b374ce58c177d14ddc014e - Path: Assets/_Project/ScriptableObjects/Blocks/LLeft.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0c56c43b59b374ce58c177d14ddc014e' -> (Import Result ID: '6c9590855e0d3267821c8e56ce7f381c') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f08e907efd3fe9d93667511506472a9a DependenciesID=746a981ca15e1b2c3dbd5404eb698ecc StaticDependenciesID=e57ffe05fefb91baa94230f2c9674e2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T04:31:13.954245Z
+  Time since last request: 501.564010602 seconds.
+  importAddress: GUID: 87a40ed031189ca73901b602779fe087 - Path: Assets/_Project/ScriptableObjects/Blocks/TwoVertical 1.asset - Importer: PreviewImporter
+Importing 'GUID: 87a40ed031189ca73901b602779fe087 - Path: Assets/_Project/ScriptableObjects/Blocks/TwoVertical 1.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 87a40ed031189ca73901b602779fe087' -> (Import Result ID: '9dde352ecd6db386f12f3dfd20b7e900') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0984e582bbc27d98b6f4e64a107a40e9 DependenciesID=6102bd64962c0784d7efe9a5bb114699 StaticDependenciesID=5492b91a08d3853688e7721887c1f8ad 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T04:31:14.925192Z
+  Time since last request: 0.957324127 seconds.
+  importAddress: GUID: 87a40ed031189ca73901b602779fe087 - Path: Assets/_Project/ScriptableObjects/Blocks/TwoVertical 1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 87a40ed031189ca73901b602779fe087 - Path: Assets/_Project/ScriptableObjects/Blocks/TwoVertical 1.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 87a40ed031189ca73901b602779fe087' -> (Import Result ID: '69df8f2782e1101677030faf0d20859e') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48b00f53fa326acd2771739c7ae649af DependenciesID=757a68f8e6dcc66d3d2f54871ef53fbe StaticDependenciesID=15dc6cc1cc23f549260ff76942360317 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9635.
+Memory consumption went from 207.3 MB to 204.6 MB.
+Total: 8.995184 ms (FindLiveObjects: 0.298526 ms CreateObjectMapping: 1.110564 ms MarkObjects: 7.236046 ms  DeleteObjects: 0.349051 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-11T04:31:41.650166Z
+  Time since last request: 26.687176455 seconds.
+  importAddress: GUID: 87a40ed031189ca73901b602779fe087 - Path: Assets/_Project/ScriptableObjects/Blocks/Square3x3.asset - Importer: PreviewImporter
+Importing 'GUID: 87a40ed031189ca73901b602779fe087 - Path: Assets/_Project/ScriptableObjects/Blocks/Square3x3.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 87a40ed031189ca73901b602779fe087' -> (Import Result ID: 'a867119f03f85d08fdaa32f762ab7911') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0984e582bbc27d98b6f4e64a107a40e9 DependenciesID=b0a474de9c1dbca6dfe096b6155e3ab6 StaticDependenciesID=bc69cc6ef7096759f2e91dbfe6e7da3e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1

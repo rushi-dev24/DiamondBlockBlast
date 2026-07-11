@@ -17,8 +17,6 @@ namespace BlockPuzzle.Gameplay.Board
         private void Start()
         {
             GenerateBoard();
-
-            RunDebugTest();
         }
 
         public BoardCell GetCell(int x, int y)
@@ -56,15 +54,6 @@ namespace BlockPuzzle.Gameplay.Board
                             cellView);
                 }
             }
-        }
-
-        private void RunDebugTest()
-        {
-            BoardCell centerCell = GetCell(3, 3);
-
-            centerCell.IsOccupied = true;
-
-            centerCell.View.SetOccupiedVisual(true);
         }
     }
 }
