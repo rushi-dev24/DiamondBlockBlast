@@ -10,6 +10,8 @@ namespace BlockPuzzle.Gameplay.Board
 
         private Color defaultColor;
 
+        private bool isOccupied;
+
         public int X { get; private set; }
 
         public int Y { get; private set; }
@@ -39,16 +41,26 @@ namespace BlockPuzzle.Gameplay.Board
 
         public void ClearHighlight()
         {
-            backgroundImage.color = defaultColor;
+            if (isOccupied)
+            {
+                backgroundImage.color = Color.blue;
+            }
+            else
+            {
+                backgroundImage.color = defaultColor;
+            }
         }
 
         public void SetOccupiedVisual(bool occupied)
-{
-    backgroundImage.color =
-        occupied
-            ? Color.blue
-            : defaultColor;
-}
+        {
+            isOccupied = occupied;
+
+            backgroundImage.color =
+                occupied
+                    ? Color.blue
+                    : defaultColor;
+        }
+
         public void ShowValidPreview()
         {
             backgroundImage.color = Color.green;

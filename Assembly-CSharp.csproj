@@ -79,6 +79,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/ShaderPropAnimator.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Blocks/BlockView.cs" />
     <Compile Include="Assets/_Project/Scripts/Systems/Themes/ThemeData.cs" />
+    <Compile Include="Assets/_Project/Scripts/Gameplay/Score/GameplayScoreUI.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets/_Project/Scripts/UI/MainMenu/MainMenuController.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Board/BoardLineDetector.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextConsoleSimulator.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TeleType.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TMP_TextEventCheck.cs" />
+    <Compile Include="Assets/_Project/Scripts/Gameplay/Score/ScoreManager.cs" />
     <Compile Include="Assets/_Project/Scripts/Gameplay/Blocks/BlockCellPosition.cs" />
     <Compile Include="Assets/TextMesh Pro/Examples &amp; Extras/Scripts/TextMeshProFloatingText.cs" />
     <Compile Include="Assets/_Project/Scripts/Core/Constants/GameVersion.cs" />

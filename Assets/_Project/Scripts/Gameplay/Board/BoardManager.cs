@@ -2,6 +2,7 @@ using UnityEngine;
 
 using BlockPuzzle.Core.Constants;
 using BlockPuzzle.Gameplay.Blocks;
+using BlockPuzzle.Gameplay.Score;
 
 namespace BlockPuzzle.Gameplay.Board
 {
@@ -17,6 +18,9 @@ namespace BlockPuzzle.Gameplay.Board
 
         [SerializeField]
         private BoardLineDetector lineDetector;
+
+        [SerializeField]
+        private ScoreManager scoreManager;
 
         private void Start()
         {
@@ -101,11 +105,20 @@ namespace BlockPuzzle.Gameplay.Board
 
                 boardCell.View.SetOccupiedVisual(true);
             }
+            scoreManager.AddPlacementScore(
+                blockData.Cells.Length);
             LineDetectionResult result =
                 lineDetector.DetectCompletedLines();
 
             if (result.HasAnyLines)
             {
+                int clearedLines =
+                    result.CompletedRows.Count +
+                    result.CompletedColumns.Count;
+
+                scoreManager.AddLineClearScore(
+                    clearedLines);
+
                 ClearLines(result);
 
                 Debug.Log(

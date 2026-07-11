@@ -9,7 +9,7 @@ No gameplay implemented yet.
 Version:
 
 ```
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`0.2.0\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`0.2.0\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`
 ```
 
 Added:
@@ -25,7 +25,7 @@ Added:
 ### Version
 
 ```
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`0.3.0\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`0.3.0\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`
 ```
 
 ### Added
@@ -43,7 +43,7 @@ Added:
 ### Version
 
 ```
-\\\\\\\\\\\\\\\`0.4.0\\\\\\\\\\\\\\\`
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`0.4.0\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\`
 ```
 
 ### Added
@@ -67,15 +67,15 @@ Added:
 Responsible for:
 
 ```
-\\\\\\\`Theme ID\\\\\\\`      
-      
-\\\\\\\`Theme Name\\\\\\\`      
-      
-\\\\\\\`Board Colors\\\\\\\`      
-      
-\\\\\\\`Cell Colors\\\\\\\`      
-      
-\\\\\\\`Block Colors\\\\\\\`
+\\\\\\\\\\\\\\\`Theme ID\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Theme Name\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Board Colors\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Cell Colors\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Block Colors\\\\\\\\\\\\\\\`
 ```
 
 ### ThemeService
@@ -83,13 +83,13 @@ Responsible for:
 Responsible for:
 
 ```
-\\\\\\\`Load Theme\\\\\\\`      
-      
-\\\\\\\`Save Theme\\\\\\\`      
-      
-\\\\\\\`Current Theme\\\\\\\`      
-      
-\\\\\\\`Theme Switching\\\\\\\`
+\\\\\\\\\\\\\\\`Load Theme\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Save Theme\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Current Theme\\\\\\\\\\\\\\\`        
+        
+\\\\\\\\\\\\\\\`Theme Switching\\\\\\\\\\\\\\\`
 ```
 
 ### Save System Integration
@@ -97,21 +97,21 @@ Responsible for:
 Now stores:
 
 ```
-\\\\\\\`SelectedThemeId\\\\\\\`
+\\\\\\\\\\\\\\\`SelectedThemeId\\\\\\\\\\\\\\\`
 ```
 
 Added:
 
 ```
-\\\`SettingsService\\\`    
-    
-\\\`Music Setting\\\`    
-    
-\\\`SFX Setting\\\`    
-    
-\\\`Haptics Setting\\\`    
-    
-\\\`Persistent Settings Support\\\`
+\\\\\\\`SettingsService\\\\\\\`      
+      
+\\\\\\\`Music Setting\\\\\\\`      
+      
+\\\\\\\`SFX Setting\\\\\\\`      
+      
+\\\\\\\`Haptics Setting\\\\\\\`      
+      
+\\\\\\\`Persistent Settings Support\\\\\\\`
 ```
 
 Added:
@@ -146,7 +146,6 @@ Added:
 
 - Infinite gameplay loop
 
-
 Verified:
 
 - Tray refill after third placement
@@ -154,3 +153,23 @@ Verified:
 - Continuous gameplay cycles
 
 - Stable runtime behavior
+
+
+Added:
+
+- Row clearing
+
+- Column clearing
+
+- Multi-line clearing
+
+- Occupancy reset
+
+
+Verified:
+
+- Board state consistency
+
+- Visual state consistency
+
+- Continued gameplay after clear
