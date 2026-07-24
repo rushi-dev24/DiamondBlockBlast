@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using BlockPuzzle.Gameplay.GameOver;
 
 namespace BlockPuzzle.Gameplay.Blocks
 {
@@ -14,7 +15,13 @@ namespace BlockPuzzle.Gameplay.Blocks
         [SerializeField]
         private Transform trayRoot;
 
+        [SerializeField]
+        private GameOverManager gameOverManager;
+
         private readonly List<BlockView> activeBlocks = new();
+
+        [SerializeField]
+        private GameOverDetector gameOverDetector;
 
         private void Start()
         {
@@ -23,12 +30,15 @@ namespace BlockPuzzle.Gameplay.Blocks
 
         public void GenerateTray()
         {
+            Debug.Log("GENERATE TRAY");
             ClearTray();
 
             for (int i = 0; i < 3; i++)
             {
                 CreateRandomBlock();
             }
+            Debug.Log("CHECKING GAME OVER");
+            CheckForGameOver();
         }
 
         private void CreateRandomBlock()
@@ -77,6 +87,54 @@ namespace BlockPuzzle.Gameplay.Blocks
             {
                 GenerateTray();
             }
+        }
+        public BlockData[] GetCurrentTrayBlocks()
+        {
+            BlockData[] blocks =
+                new BlockData[activeBlocks.Count];
+
+            for (int i = 0;
+                i < activeBlocks.Count;
+                i++)
+            {
+                if (activeBlocks[i] != null)
+                {
+                    blocks[i] =
+                        activeBlocks[i].BlockData;
+                }
+            }
+
+            return blocks;
+        }
+       private void CheckForGameOver()
+        {
+            if (gameOverDetector == null)
+            {
+                Debug.LogError(
+                    "BlockTrayManager: GameOverDetector missing.");
+
+                return;
+            }
+
+            BlockData[] trayBlocks =
+                GetCurrentTrayBlocks();
+
+            bool hasValidMove =
+                gameOverDetector.HasAnyValidMove(
+                    trayBlocks);
+
+            if (hasValidMove)
+            {
+                Debug.Log(
+                    "Game continues. Valid move exists.");
+
+                return;
+            }
+
+            Debug.Log(
+                "No valid moves available. GAME OVER.");
+
+            gameOverManager.TriggerGameOver();
         }
     }
 }

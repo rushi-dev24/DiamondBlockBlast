@@ -16,6 +16,8 @@ namespace BlockPuzzle.Gameplay.Board
 
         private BoardCell[,] cells;
 
+        public bool IsInitialized { get; private set; }
+
         [SerializeField]
         private BoardLineDetector lineDetector;
 
@@ -25,6 +27,8 @@ namespace BlockPuzzle.Gameplay.Board
         private void Start()
         {
             GenerateBoard();
+
+            IsInitialized = true;
         }
 
         public BoardCell GetCell(int x, int y)
@@ -64,6 +68,7 @@ namespace BlockPuzzle.Gameplay.Board
                             cellView);
                 }
             }
+            Debug.Log("BOARD GENERATED");
         }
         public BoardCell GetCell(BoardCellView view)
         {

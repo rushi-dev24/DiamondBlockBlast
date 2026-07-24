@@ -30,9 +30,12 @@ namespace BlockPuzzle.Gameplay.Blocks
         private BoardManager boardManager;
 
         private BlockTrayManager trayManager;
-        
-        public BlockData BlockData { get; private set; }
 
+        private BlockData blockData;
+
+        public BlockData BlockData =>
+            blockData;
+        
         private void Awake()
         {
             
@@ -58,7 +61,8 @@ namespace BlockPuzzle.Gameplay.Blocks
 
         public void Initialize(BlockData blockData)
         {
-            BlockData = blockData;
+            this.blockData = blockData;
+            
             Clear();
 
             int maxX = 0;
