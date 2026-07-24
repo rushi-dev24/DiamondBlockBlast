@@ -880,3 +880,221 @@ Memory consumption went from 210.0 MB to 205.3 MB.
 Total: 10.758274 ms (FindLiveObjects: 0.667373 ms CreateObjectMapping: 3.395065 ms MarkObjects: 5.308616 ms  DeleteObjects: 1.385573 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 4.30 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8695 unused Assets / (5.5 MB). Loaded Objects now: 9608.
+Memory consumption went from 209.8 MB to 204.3 MB.
+Total: 18.409326 ms (FindLiveObjects: 0.878901 ms CreateObjectMapping: 5.546306 ms MarkObjects: 8.921722 ms  DeleteObjects: 3.060425 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1705ms
+	BeginReloadAssembly (190ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (759ms)
+		LoadAssemblies (355ms)
+		AnalyzeDomain (316ms)
+			TypeCache.Refresh (17ms)
+			BuildScriptInfoCaches (286ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (675ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.05 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8759 unused Assets / (4.7 MB). Loaded Objects now: 9611.
+Memory consumption went from 210.2 MB to 205.5 MB.
+Total: 10.369532 ms (FindLiveObjects: 0.501274 ms CreateObjectMapping: 1.920174 ms MarkObjects: 6.066067 ms  DeleteObjects: 1.880617 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 3.17 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9611.
+Memory consumption went from 205.7 MB to 203.1 MB.
+Total: 9.503598 ms (FindLiveObjects: 0.333576 ms CreateObjectMapping: 0.645836 ms MarkObjects: 8.087554 ms  DeleteObjects: 0.435375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-24T04:34:35.903237Z
+  Time since last request: 1481.2912004509999 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '2b2df29bf99aeac873259f1e2c32275e') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87dd711df587e099a77e1655637e151e DependenciesID=81af677163b072f42fba983f81229324 StaticDependenciesID=a40167921161488ca291ed5e1e657903 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 4.96 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.66 ms, found 1 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.008 seconds
+Domain Reload Profiling: 1777ms
+	BeginReloadAssembly (168ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (548ms)
+		LoadAssemblies (242ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (217ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1009ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (389ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (34ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8759 unused Assets / (6.0 MB). Loaded Objects now: 9614.
+Memory consumption went from 210.4 MB to 204.4 MB.
+Total: 17.003694 ms (FindLiveObjects: 1.064292 ms CreateObjectMapping: 3.806484 ms MarkObjects: 8.767611 ms  DeleteObjects: 3.363262 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-24T04:43:51.118703Z
+  Time since last request: 555.19565155500004 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: 'ba8dd23e23bf61897ddcb0d96fbddf35') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87dd711df587e099a77e1655637e151e DependenciesID=88ed497e1f00f4e81cd6dbfe4d8af357 StaticDependenciesID=e79072e19be42a76857e4659b3aad44a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 2.72 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9614.
+Memory consumption went from 205.9 MB to 203.3 MB.
+Total: 14.076346 ms (FindLiveObjects: 0.402755 ms CreateObjectMapping: 0.756866 ms MarkObjects: 12.472363 ms  DeleteObjects: 0.442809 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-07-24T04:44:31.659158Z
+  Time since last request: 40.525107251 seconds.
+  importAddress: GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter
+Importing 'GUID: 8d9a067265a08b868a26c57f27d93716 - Path: Assets/_Project/Scenes/Gameplay.unity - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8d9a067265a08b868a26c57f27d93716' -> (Import Result ID: '678e46b981bef969804bebd7cfb82ae5') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87dd711df587e099a77e1655637e151e DependenciesID=71385b82d9dcf4ebe021b62dcc95000d StaticDependenciesID=8bceae01c4b77df2a766a6e0ea5a2dc7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Refreshing native plugins compatible for Editor in 5.28 ms, found 1 plugins.
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.6 MB). Loaded Objects now: 9614.
+Memory consumption went from 206.0 MB to 203.3 MB.
+Total: 13.141731 ms (FindLiveObjects: 0.735213 ms CreateObjectMapping: 2.275257 ms MarkObjects: 9.571216 ms  DeleteObjects: 0.557796 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Refreshing native plugins compatible for Editor in 2.28 ms, found 1 plugins.
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.12 ms, found 1 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1379ms
+	BeginReloadAssembly (181ms)
+		DisableScriptedObjects (24ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (534ms)
+		LoadAssemblies (279ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (12ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (614ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Shader Hidden/ChartRasterizerHardware is not supported: GPU does not support conservative rasterization
+Unloading 23 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 8759 unused Assets / (5.6 MB). Loaded Objects now: 9617.
+Memory consumption went from 210.6 MB to 205.1 MB.
+Total: 13.590185 ms (FindLiveObjects: 0.658242 ms CreateObjectMapping: 1.780479 ms MarkObjects: 8.774576 ms  DeleteObjects: 2.375220 ms)
+
+Prepare: number of updated asset objects reloaded= 0

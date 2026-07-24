@@ -8,11 +8,21 @@ namespace BlockPuzzle.Gameplay.Score
     {
         public int CurrentScore { get; private set; }
 
-        public int HighScore =>
-            GameRoot.Instance
-                .SaveService
-                .Data
-                .HighScore;
+        public int HighScore
+        {
+            get
+            {
+                if (GameRoot.Instance == null)
+                {
+                    return 0;
+                }
+
+                return GameRoot.Instance
+                    .SaveService
+                    .Data
+                    .HighScore;
+            }
+        }
 
         public void AddPlacementScore(
             int blockCellCount)

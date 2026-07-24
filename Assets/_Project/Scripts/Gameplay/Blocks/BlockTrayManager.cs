@@ -86,7 +86,10 @@ namespace BlockPuzzle.Gameplay.Blocks
             if (activeBlocks.Count == 0)
             {
                 GenerateTray();
+                return;
             }
+
+            CheckForGameOver();
         }
         public BlockData[] GetCurrentTrayBlocks()
         {

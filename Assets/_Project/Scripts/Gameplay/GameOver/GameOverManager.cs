@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using BlockPuzzle.Core.Bootstrap;
+using BlockPuzzle.Gameplay.Score;
 
 using BlockPuzzle.UI.GameOver;
 
@@ -12,6 +14,9 @@ namespace BlockPuzzle.Gameplay.GameOver
 
         [SerializeField]
         private GameOverPanelController panelController;
+        
+        [SerializeField]
+        private ScoreManager scoreManager;
 
         public bool IsGameOver { get; private set; }
 
@@ -44,6 +49,10 @@ namespace BlockPuzzle.Gameplay.GameOver
             }
             Debug.Log(
                 $"Panel Active Before = {gameOverPanel.activeSelf}");
+            GameRoot.Instance
+            .ProgressionService
+            .AddLifetimeScore(
+                scoreManager.CurrentScore);
             ShowGameOver();
             Debug.Log(
                 $"Panel Active After = {gameOverPanel.activeSelf}");

@@ -53,7 +53,8 @@ namespace BlockPuzzle.UI.MainMenu
             playerLevelText.text =
                 $"Level: {GameRoot.Instance.ProgressionService.CurrentLevel}";
 
-            versionText.text = "Version 1.1";
+            versionText.text =
+               $"Version {Core.Constants.GameVersion.Version}";
         }
 
         private void OnPlayClicked()
